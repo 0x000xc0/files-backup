@@ -28,4 +28,4 @@ master 分支作为中央仓库主分支，并且功能分支不是从 master �
 维护分支或说是热修复（hotfix）分支用于生成快速给产品发布版本（production releases）打补丁，这是唯一可以直接从 master 分支 fork 出来的分支。修复完成，修改应该马上合并回 master 分支和 develop 分支（当前的发布分支），master 分支应该用新的版本号打好Tag。
 
 # Pull Request 完整流程图
-![图1 Pull Request 完整流程图](图2.png)
+![图2 Pull Request 完整流程图](图2.PNG)
