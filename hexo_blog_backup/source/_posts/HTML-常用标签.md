@@ -108,3 +108,91 @@ a<sup>2</sup>+b<sub>0</sub>
 
 # 深入格式
 ## 列表与图片
+有序列表,start 属性为从几开始。
+```
+<ol start=2>
+	<li>ABC</li>
+	<li>ABC</li>
+</ol>
+```
+
+无序列表
+```
+<ul>
+	<li>ABC</li>
+	<li>ABC</li>
+</ul>
+```
+
+定义列表
+```
+<dl>
+	<dt>词条</dt>
+	<dd>词条的解释</dd>
+</dl>
+```
+
+插入图片，`./` 表示当前目录,同目录可直接写文件夹；`../` 表示上一级目录。从当前位置去找目的位置。
+```
+<img src="example.jpg" width="50%" height="50%" alt="另选的。装在中，失败时显示的文字">
+```
+
+窗口插入另一个页面
+```
+<iframe src="http://www.163.com"></iframe>
+```
+
+## 超链接
+target 属性有：`_blank` `_self` `_top`(在整个窗口中打开)
+```
+<a href="">XXX</a>
+```
+
+页面内链接
+```
+<a href="#here">XXX</a> <!--here 为某个标签的 id值-->
+<a href="you.html#here">XXX</a>
+```
+
+图片定位链接。
+将图片隐射到地图，地图中再划分区域（区域中属性有形状，坐标，链接）。
+```
+<img src="example.jpg" width="200" height="200" usemap="#map">
+
+<map name="map">
+	<area shape="rect" coords="0,0,50,50" href="">
+	<area shape="circle" coords="75,75,25" href="">
+</map>
+```
+
+## 表格
+标题，行，表头&列组成。
+```
+<table border="1">
+	<caption>这是一个表格</caption>
+	<thead>
+	<tr>
+		<th>OS</th>
+		<th>Chinese?</th>
+		<th>French</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>iOS 10</td>
+		<td>YES</td>
+		<td>YES</td>
+	</tr>
+	</tbody>
+	<tfoot>
+	<tr>
+		<td colspan="3">列延展3个格子</td> <!--rowspan 为行延展，行合并-->
+	</tr>
+	</tfoot>
+</table>
+```
+```
+<thead>用来包裹表格表头行</thead>
+<tbody>用来包裹表格 body 部分行</tbody>
+<tfoot>用来包裹表格 foot 行</tfoot>
+```
