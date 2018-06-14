@@ -7,7 +7,7 @@ tags: CSS
 HTML 表达结构（它是什么，意义），CSS 表达样式。
 内容/结构和样式分离的。（CSS 出现前，HTML 既表示结构也表示样式。）
 
-# 添加 CSS 的三种方式：
+# 添加 CSS 的三种方式
 1.内联
 ```
 <p style="background-color:yellow;"></p>
