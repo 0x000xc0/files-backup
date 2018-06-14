@@ -3,6 +3,20 @@ title: HTML 常用标签
 date: 2018-06-12 13:54:19
 tags: HTML
 ---
+# 概念
+HTML 文档基本构成：标签，属性，元素。
+
+Head 放置一些辅助元素（主要为样式表 `<style></style>`；JavaScript 脚本 `<script><script>`）。
+Body 放置网页主体内容。
+
+注释在 HTML,CSS,JavaScript 中的区别：
+HTML中 `<!--   -->` ，
+CSS中 `/*   */` ，
+JavaScript 单行 `//`   多行 `/*   */` 。
+
+使用小于号，大于号，引号等需要使用参考字符，以 `&` 开始，以 `;` 结束。如 1<2 写成 `1&lt;` 。
+
+
 # 基础格式
 使用 `<hgroup>` 标签对网页或区段（section）的标题进行组合，逻辑上为一体：
 ```
