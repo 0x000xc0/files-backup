@@ -9,7 +9,9 @@ tags: 记录小结
 # 0x02 问题一之博文插入图片
 博文插入图片配置：[参考博文](http://etrd.org/2017/01/23/hexo%E4%B8%AD%E5%AE%8C%E7%BE%8E%E6%8F%92%E5%85%A5%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/)
 Hexo的配置文件_config.yml，设置为 `post_asset_folder: true` ；
+
 安装图片路径转换的插件，`npm install https://github.com/CodeFalling/hexo-asset-image --save` ，其插件存放于 `\node_modules\hexo-asset-image` 
+
 注意图片与 html 页面同目录引入图片的 Markdown 格式为 `![图1 改导航栏生成路径代码](图1.PNG)`，路径怎么写要看最后生成的静态博客目录结构。
 
 # 0x03 问题二之导航菜单添加

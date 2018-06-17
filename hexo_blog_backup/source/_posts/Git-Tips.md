@@ -10,9 +10,11 @@ tags: Git
 本地已存在仓库，远程已存在仓库做关联。//先将两仓库关联，将远程仓库内容 pull 到本地，解决冲突合并后 push 到远程仓库。
 
 第三种:
-先将两仓库关联，命令 `git remote add origin [远程仓库地址]`
-将远程仓库内容 pull 到本地，`命令 git pull origin master`
-解决问题后推送，命令 `git push -u origin master`
+1.先将两仓库关联，命令 `git remote add origin [远程仓库地址]` 。
+
+2.将远程仓库内容 pull 到本地，`命令 git pull origin master` 。
+
+3.解决问题后推送，命令 `git push -u origin master` 。
 
 注意：出现电子邮箱设置为 private 而无法 push，则可参考如下：
 github 网站电子邮件设置中这一选项不打勾。
