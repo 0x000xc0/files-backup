@@ -21,7 +21,7 @@ $ git config --global user.email youemail@example.com
 
 生成 SSH 公钥，并添加至 GitHub网站。
 ```
-ssh-keygen -t rsa -C "you youemail@example.com"
+ssh-keygen -t rsa -C "youemail@example.com"
 ssh git@github.com  //测试是否成功。
 ```
 
