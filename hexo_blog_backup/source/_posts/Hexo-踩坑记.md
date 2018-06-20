@@ -7,18 +7,18 @@ tags: 记录小结
 配置环境，安装 hexo，初始化，安装一些依赖包。完成基础配置，无论换不换主题，按照文档也不会有太大问题。（此文使用的是 Anisina 主题，[主题文档教程](https://haojen.github.io/2017/05/09/Anisina-%E4%B8%AD%E6%96%87%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/)）
 
 # 0x02 问题一之博文插入图片
-博文插入图片配置：[参考博文](http://etrd.org/2017/01/23/hexo%E4%B8%AD%E5%AE%8C%E7%BE%8E%E6%8F%92%E5%85%A5%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/)
+1. 博文插入图片配置：[参考博文](http://etrd.org/2017/01/23/hexo%E4%B8%AD%E5%AE%8C%E7%BE%8E%E6%8F%92%E5%85%A5%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/)
 Hexo的配置文件_config.yml，设置为 `post_asset_folder: true` ；
 
-安装图片路径转换的插件，`npm install https://github.com/CodeFalling/hexo-asset-image --save` ，其插件存放于 `\node_modules\hexo-asset-image` 
+2. 安装图片路径转换的插件，`npm install https://github.com/CodeFalling/hexo-asset-image --save` ，其插件存放于 `\node_modules\hexo-asset-image` 
 
-注意图片与 html 页面同目录引入图片的 Markdown 格式为 `![图1 改导航栏生成路径代码](图1.PNG)`，路径怎么写要看最后生成的静态博客目录结构。
+3. 注意图片与 html 页面同目录引入图片的 Markdown 格式为 `![图1 改导航栏生成路径代码](图1.PNG)`，路径怎么写要看最后生成的静态博客目录结构。
 
 # 0x03 问题二之导航菜单添加
 坑来了。（非默认主题）
-在配置 works 导航栏时，用命令 `hexo new page “works”` 中因为 “work” 。在 source 文件夹下对应的 index.md 记得设置 layout 为 works，用对应的模版进行渲染。具体见 themes 文件夹对应主题的模版文件（layout 文件夹）。
+1. 在配置 works 导航栏时，用命令 `hexo new page “works”` 中因为 “work” 。在 source 文件夹下对应的 index.md 记得设置 layout 为 works，用对应的模版进行渲染。具体见 themes 文件夹对应主题的模版文件（layout 文件夹）。
 
-在配置 about 导航栏时，先将 themes 中对应主题的 about 模版内容改成自己的，然后 `hexo new page “about”`，改 layout。最后 `hexo clear && hexo generate && hexo deploy`，结束。
+2. 在配置 about 导航栏时，先将 themes 中对应主题的 about 模版内容改成自己的，然后 `hexo new page “about”`，改 layout。最后 `hexo clear && hexo generate && hexo deploy`，结束。
 
 # 0x04 问题三之导航菜单文件夹小大写
 在配置 about 导航栏时遇到的问题，开始 new page 用的大写，导致生成了 ABOUT 文件夹，于是无法打开此页连接（模版中代码其生成的链接为小写，将对应代码改成小写也可以正常使用）。
