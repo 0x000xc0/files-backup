@@ -3,7 +3,7 @@ title: Git 使用小结
 date: 2018-06-13 00:43:46
 tags: Git
 ---
-# 概述 Github flow
+# 一 概述 Github flow
 1. 创建一个新分支。
 同一时刻多个想法，创建分支来进行管理。
 
@@ -16,7 +16,7 @@ tags: Git
 4. 合并分支，然后部署。
 大家审核了 pull request并通过测试，后合并到主分支上。
 
-# 具体核心流程
+# 二 具体核心流程
 教程：[参考教程](http://blog.jobbole.com/76867/)
 ![图1 具体流程](图1.png)
 1. master 分支作为中央仓库主分支，并且功能分支不是从 master 分支上拉出新分支，而是使用 develop 分支作为父分支。
@@ -27,5 +27,5 @@ tags: Git
 
 4. 维护分支或说是热修复（hotfix）分支用于生成快速给产品发布版本（production releases）打补丁，这是唯一可以直接从 master 分支 fork 出来的分支。修复完成，修改应该马上合并回 master 分支和 develop 分支（当前的发布分支），master 分支应该用新的版本号打好Tag。
 
-# Pull Request 完整流程图
+# 三 Pull Request 完整流程图
 ![图2 Pull Request 完整流程图](图2.PNG)

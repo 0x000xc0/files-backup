@@ -3,7 +3,7 @@ title: JS 面向对象
 date: 2018-06-21 19:18:43
 tags: JavaScript
 ---
-# 面向对象概念
+# 一 面向对象概念
 1. 程序设计方法：
 面向过程：以过程为中心，自顶向下逐步细化。看成一系列函数的调用。
 面向对象：对象作为基本单元，程序分解为数据和相关操作。
@@ -12,7 +12,7 @@ tags: JavaScript
 概念：对象，类，属性，方法。
 特性：继承，封装，多态。
 
-# constructor 对象构造器
+# 二 constructor 对象构造器
 1. 概念：
 ```
 var o = new Array();  // var 对象 = 对象构造器; 
@@ -36,7 +36,7 @@ var student1 = new Student('Amy','2','98');
 
 3. 注意：如果构造函数有返回值 `return{}` 则得到的是一个空对象，undefined。
 
-# this
+# 三 this
 1. 全局环境中的 this：
 ```
 var a = 10;
@@ -81,7 +81,7 @@ point.move.call(circle,1,1);  // 想使用其他对象的方法
 point.move.apply(circle,[1,1]);
 ```
 
-# 原型继承
+# 四 原型继承
 prototype，让创建的对象共享一个原型的值，不浪费空间（生成多个占用不同空间的值）。
 ```
 function Teacher(){
@@ -98,16 +98,16 @@ Teacher.prototype = {
 }
 ```
 
-# 原型链
-## 属性查找
+# 五 原型链
+## 1 属性查找
 在对象本身中找，没有则去其原型中找，没有再去 Object.prototype 中查找。
 ![属性查找](图2.PNG)
 
-## 属性修改
+## 2 属性修改
 永远只修改对象本身的属性，不管名字来源于对象本身还是其原型。
 和原型上的属性相同只会在对象本身上创建一个属性，想修改原型的属性值必须用 `Teacher.prototype.job = 'XXX';`
 
-## 属性删除
+## 3 属性删除
 1. 与修改类似，删除只能删除对象本身的属性，无法删除原型的属性。
 ```
 delete teacher1.job;
@@ -120,8 +120,8 @@ delete teacher1.job;
 直接从原型中创建一个对象，`Object.create(proto[,propertiesObject])` 。
 eg. `var teacher2 = Object.create(teacher);` 
 
-# 应用
-## 全局变量
+# 六 应用
+## 1 全局变量
 1. 全局变量的三种定义：
 - 在最外面定义 `var test = 'some value';`
 - window.变量名字 `window.test = 'some value';`
@@ -131,7 +131,7 @@ eg. `var teacher2 = Object.create(teacher);`
 2. 其他两种全局变量情况：
 ![全局变量情况](图3.PNG)
 
-## 封装
+## 2 封装
 1. 信息隐藏：
 ![信息隐藏](图4.PNG)
 
@@ -141,7 +141,7 @@ eg. `var teacher2 = Object.create(teacher);`
 3. JavaScript 中的封装：
 ![JavaScript 中的封装](图6.PNG)
 
-## 继承
+## 3 继承
 1. 原型继承：
 类继承。
 ![原型继承](图7.PNG)

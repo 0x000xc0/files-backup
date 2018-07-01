@@ -3,7 +3,7 @@ title: HTML 进阶
 date: 2018-06-25 17:48:06
 tags: HTML
 ---
-# 概念
+# 一 概念
 1. HTML 发展史：
 ![HTML 发展史](图1.PNG)
 
@@ -14,15 +14,15 @@ tags: HTML
 - 文档头部内容：
 ![文档头部内容](图2.PNG)
 
-# 标签
-## 语法
+# 二 标签
+## 1 语法
 常用属性：
 - id：`<div id="nav"></html>div>`
 - class: `<span class="time"></span>`
 - style: `<div style="display:none;"></div>`
 - title：`<a title="收藏"></a>` 
 
-## 章节
+## 2 章节
 1. 标签概况：
 ![标签集合](图3.PNG)
 
@@ -30,17 +30,17 @@ tags: HTML
 之前用 div 进行分割，HTML5 新增的标签，可以更好的语义化。
 ![章节标签](图4.PNG)
 
-## 文本
+## 3 文本
 - 超链接： `<a href="" target=""></a>` //链接还可以是锚点（#eg），也可以是一个 name 值。
 
 其余标签参考博文《HTML 基础》。
 
-## 组标签
+## 4 组标签
 - div
 - p
 - ul，ol，dl（自定义列表的 type 属性表示用什么作为序号，如 `type="a"`）。
 
-## 资源
+## 5 资源
 - img：`<img src="" alt="">`
 
 - iframe：`<iframe src=""></iframe>`
@@ -59,7 +59,7 @@ tags: HTML
 - map，area：可以用来定义热点。
 ![map，area](图8.PNG)
 
-## 表格
+## 6 表格
 标题，行，表头&列组成。
 ```
 <table border="1">
@@ -91,7 +91,7 @@ tags: HTML
 <tfoot>用来包裹表格 foot 行</tfoot>
 ```
 
-## 表单
+## 7 表单
 用来将数据传送给后台。
 
 1. form:
@@ -117,11 +117,11 @@ name 属性为传到后台的名称，value 属性为传到后台的名称对应
 ![input4](图12.PNG)
 ![input5](图13.PNG)
 
-## 语义化
+## 8 语义化
 用正确的标签来描述页面。
 语义化用来 SEO，提高代码可读性等。
 
-# 实体字符
+# 三 实体字符
 类似于转义字符。
 
 1. 两种表示方法：

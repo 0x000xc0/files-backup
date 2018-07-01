@@ -3,7 +3,7 @@ title: JavaScript 基础之面向对象与事件处理
 date: 2018-06-19 11:23:18
 tags: JavaScript
 ---
-# 对象
+# 一 对象
 对象是 JavaScript 的一种复合数据类型（一个属性集合），把很多数据集合在一个变量中。
 JavaScript 不像其他 OOP 语言有类的概念。
 
@@ -30,7 +30,7 @@ delete book.chapter1;
 book.chapter1 = null;
 ```
 
-# 遍历对象属性
+# 二 遍历对象属性
 ```
 for(var x in o)
 {
@@ -39,7 +39,7 @@ for(var x in o)
 // o 为创建的对象；x 为属性；o[x] 为属性值。
 ```
 
-# 构造函数
+# 三 构造函数
 不直接制造对象；通过 this 来定义；没有 return。
 ```
 function Rect(w,h)
@@ -56,7 +56,7 @@ var r = new Rect(5,10);
 alert(r.area());
 ```
 
-# 原型对象
+# 四 原型对象
 1. 对象的 prototype 属性指定了它的原型对象，可以用点运算符直接读它的原型对象的属性；
 当写这个属性时才在它自己内部产生实际的属性。
 （赋新的值才会有自己的，否则使用原型中的值）
@@ -93,14 +93,14 @@ Person.prototype = {
 };
 ```
 
-# 浏览器中的 JS
+# 五 浏览器中的 JS
 浏览器的全局对象是 window；所有全局变量实际上是 window 的成员。
 ```
 var answer = 12;
 alert(window.answer);
 ```
 
-# 事件处理器
+# 六 事件处理器
 1. 例：
 ```
 <p onMouseOver="alert('hi');">

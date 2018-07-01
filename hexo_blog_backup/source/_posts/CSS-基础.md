@@ -3,11 +3,11 @@ title: CSS 基础
 date: 2018-06-13 21:31:23
 tags: CSS
 ---
-# 概念
+# 一 概念
 HTML 表达结构（它是什么，意义），CSS 表达样式。
 内容/结构和样式分离的。（CSS 出现前，HTML 既表示结构也表示样式。）
 
-# 添加 CSS 的三种方式
+# 二 添加 CSS 的三种方式
 1. 内联：
 ```
 <p style="background-color:yellow;"></p>
@@ -23,27 +23,25 @@ HTML 表达结构（它是什么，意义），CSS 表达样式。
 <link rel="stylesheet" type="text/css" href="">
 ```
 
-# 简单样式
+# 三 简单样式
 1. 关于颜色：
 （前端取色软件推荐：ColorPic 等）
 ```
 background-color:transparent;  /* 直接设置值的名字 */
 
 background-color:rgb(255,255,0);  /* background-color:rgba(255,255,0,0.5)  a 为透明度，0-1 的浮点数 */
-
-background-image:url(pic.jpg);  /* background-image:url(http://www.163.com/pic.jpg) */
 ```
 
 2. 图片背景：
 ```
-background-image:url(pic.jpg);
+background-image:url(pic.jpg);  /* background-image:url(http://www.163.com/pic.jpg) */
 background-repeat:no-repeat;  /* background-repeat:repeat-x / repeat-y; */
 background-position:top right;  /* background-position:200px 200px; */
 background-attachment:fixed;  /* background-attachment:scroll; 默认为滚动 */
 ```
 
-# 基础样式
-## 文本样式
+# 四 基础样式
+## 1 文本样式
 1. 文字修饰与空格处理：
 ```
 text-transform:uppercase;  /* 文本转换 */
@@ -74,7 +72,7 @@ outline-color:red;outline-style:solid;  /* 边框 */
 outline-width:2  /* 可以为数值，也可以为提供的样式。 */
 ```
 
-## 段落样式
+## 2 段落样式
 1. 段落缩进：
 ```
 text-indent:2em;  /* 首行缩进 2 个字符。 */
