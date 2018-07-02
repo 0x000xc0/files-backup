@@ -114,12 +114,36 @@ clear 属性规定元素的哪一侧不允许其他浮动元素。
 ![order](图17.PNG)
 
 ## 3 flex 弹性
-- flex-grow：
+- flex-basis：
+默认为主方向的宽/高。
+![flex-basis](图18.PNG)
 
+- flex-grow：
+![flex-grow](图19.PNG)
 
 - flex-shrink：
+与 flex-grow 正好相反，不同之处在于它分配的是负值（超出容器部分），这样原来的子元素会变小。
+![flex-shrink](图20.PNG)
 
-- flex-basis：
-
+- 综合缩写：
+![综合缩写](图21.PNG)
 
 ## 4 flex 对齐
+- justify-content：
+设置主轴上的对齐方式。
+![justify-content](图22.PNG)
+
+- align-items：
+设置辅轴上的对齐方式。
+![align-items](图23.PNG)
+
+- align-self：
+对容器内单个子元素设置辅轴上的对齐方式。
+![align-self](图24.PNG)
+
+- align-content：
+容器内有多行，对行设置对齐方式。
+![align-content](图25.PNG)
+
+## 5 综合运用
+![综合运用](图26.PNG)

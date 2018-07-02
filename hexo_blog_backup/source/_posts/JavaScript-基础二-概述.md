@@ -1,5 +1,5 @@
 ---
-title: JavaScript 基础
+title: JavaScript 基础二 概述
 date: 2018-06-15 18:26:34
 tags: JavaScript
 ---
