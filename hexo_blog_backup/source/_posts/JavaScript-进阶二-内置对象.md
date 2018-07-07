@@ -5,7 +5,6 @@ tags: JavaScript
 ---
 # 一 简介
 
-
 # 二 Object
 
 # 三 String、Number、Boolean
