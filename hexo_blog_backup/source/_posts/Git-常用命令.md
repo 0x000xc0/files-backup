@@ -24,19 +24,22 @@ $ git config --global user.email youemail@example.com
 ssh-keygen -t rsa -C "youemail@example.com"
 ssh git@github.com  //测试是否成功。
 ```
+3. 可选择更改仓库提交的用户邮箱：
+[主题文档教程](https://help.github.com/articles/setting-your-commit-email-address-in-git/)
 
 # 二 Git 获取项目,创建项目
-1. 将远程的代码 clone 到本地仓库:
+- 将远程的代码 clone 到本地仓库:
 克隆获取远程项目：`git clone git://github.com/schacon/grit.git`
 
-2. 将本地的代码关联到远程仓库:
-查看远程仓库：`git remote` 。
-初始化一个仓库：`git init` 。
+- 将本地的代码关联到远程仓库:
+初始化一个仓库：`git init` （如果是新的仓库）。
 关联远程仓库：`git remote add [shortname] [url]`
 // `git remote add origin git@server-name:path/repo-name.git`
 (一个项目可以同时拥有好几个远端仓库为了能够区分，通常会起不同的名字。通常主远端仓库被称为origin。)
 
 # 三 获取与推送
+有新修改的内容记得 add 和 commit。
+
 1. 获取远程数据：
 `git fetch [remote-name]` 不会合并，
 `git pull [remote-name] [branch-name]` 会获取并合并。 // `git push origin master`
