@@ -34,7 +34,7 @@ skip_render:
 
 # SNS settings
 # RSS:
-weibo_username: iapplestory
+weibo_username:
 zhihu_username: Marlous
 github_username: Marlous
 twitter_username: MarlousMo
