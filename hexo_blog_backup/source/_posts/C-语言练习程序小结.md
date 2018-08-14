@@ -73,7 +73,7 @@ int main()
         num1=temp-x2;
         num2=fabs(num1);
     }while(num2>=10e-5);//满足一直循环。
-    printf("%lf is root1=%lf,root2=%lf\n",a,temp);
+    printf("%lf is root1=%lf,root2=%lf\n",a,temp,x2);
     return 0;
 }
 ```
