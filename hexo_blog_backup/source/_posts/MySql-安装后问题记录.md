@@ -24,3 +24,7 @@ tags: 记录小结
 此电脑（右键）-> 属性 -> 高级系统设置 -> 环境变量。
 
 找到环境变量中的 Path，然后对其编辑，添加 C:\Program Files\MySQL\MySQL Server 5.7\bin，非 Win 10 需要加在前面并加上英文分号。
+
+验证配置正确：
+命令 `mysql -V`
+![验证配置正确](图5.PNG)
