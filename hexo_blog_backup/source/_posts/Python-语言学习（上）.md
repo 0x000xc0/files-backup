@@ -108,3 +108,21 @@ else:
 ```
 
 ## 2 循环结构
+1. while 循环：
+```
+while 条件:
+	语句块
+```
+
+2. for 循环：
+遍历对象 object 中的每个元素，并赋值给 anElement。
+```
+for anElement in object:
+	语句块
+
+例 1+2+3+...+10：
+s = 0
+for i in range(11)
+	s = s + i
+print('sum is:',s)
+```
