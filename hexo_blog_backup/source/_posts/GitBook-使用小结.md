@@ -8,6 +8,11 @@ GitBook 的使用和 GitHub 的使用非常相似，其客户端为 GitBook Edit
 以下用制作一本书从零到发布到 GitBook 全过程为例介绍怎样使用 GitBook。
 我的 GitBook 主页：https://legacy.gitbook.com/@marlous
 
+> 网页版使用教程：[参考博文](https://www.jianshu.com/p/4731abc562e7)
+本地 GUI 使用教程：[参考博文](https://blog.csdn.net/duanbiren123/article/details/80190489)
+本地命令行使用及生成 PDF 教程：[参考博文](https://www.jianshu.com/p/09a1cac0a0d0)
+本地编译成 PDF 或其他格式：[参考博文](https://www.jianshu.com/p/d8286217b401)
+
 # 一 准备
 1. 注册 GitBook，安装 GitBook Editor 并登陆。
 
