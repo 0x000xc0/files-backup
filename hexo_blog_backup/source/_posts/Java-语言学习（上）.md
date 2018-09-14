@@ -9,6 +9,8 @@ JavaSE（J2SE)(Java2 Platform Standard Edition，java 平台标准版）
 JavaEE (J2EE)(Java 2 Platform,Enterprise Edition，java 平台企业版)
 JavaME (J2ME)(Java 2 Platform Micro Edition，java 平台微型版)
 
+SE 桌面程序开发；EE 适合网络服务的开发；ME 适合小规模的嵌入式开发。
+
 2. 环境变量配置：
 （Windows 10 安装 jdk1.8.0_172）
 下载 JDK 安装。
