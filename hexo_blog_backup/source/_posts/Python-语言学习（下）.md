@@ -126,7 +126,7 @@ print("PI is {:.4f}".format(math.pi)) #输出为四位小数。
 ![列表解析或推倒](图8.PNG)
 
 9. 对列表排序：
-使用 `sort(key,reverse) 函数`
+使用 `sort(key,reverse) 函数` 
 ```
 对列表中学生成绩排序（由姓名和成绩组成）：
 def f(a)
@@ -135,7 +135,7 @@ def f(a)
 students.sort(key = f,reverse = True) #sort() 函数的两个格参数。
 
 print(students)
-``` 
+```
 
 ## 2 元组
 1. 概念：
