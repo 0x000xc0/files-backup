@@ -1,5 +1,5 @@
 ---
-title: MySQL 学习笔记 一 介绍与安装
+title: MySQL 学习笔记 一 介绍安装与常用命令
 date: 2018-09-17 22:32:14
 tags: 数据库
 ---
@@ -34,6 +34,52 @@ MySQL 官方文档：https://dev.mysql.com/doc/
 旧版本配置文件在安装目录下。
 MySQL 5.7 的配置文件在 `C:\ProgramData\MySQL\MySQL Server 5.7\my.ini` ，可在 MySQL Workbench 中默认的数据库中查看。
 ![MySQL 5.7 的配置文件查看](图2.PNG)
+
+## 3 服务启动与停止
+1. 启动命令 `net start mysql` （注意服务名是否无效，在服务中看正确的服务名，为 mysql57，拒绝访问用管理员。）;
+
+2. 关闭服务 `net stop mysql` 。
+
+## 4 登陆与退出
+1. 登陆：`mysql 参数` ，如 `mysql -uroot -p -P3306 -h127.0.0.1` 
+参数：![登陆参数](图3.PNG)
+
+2. 退出：`exit 或 quit 或 \q`
+
+## 5 修改提示符
+参数：![提示符参数](图4.PNG)
+- 连接时通过参数指定：`mysql -uroot -p --prompt 提示符`
+- 连接上后：`prompt 提示符`
+
+## 6 MySQL 常用命令及语句规范
+1. 常用命令：[参考博文](https://www.cnblogs.com/wanghetao/p/3806888.html)
+
+PART 1
+- 显示当前服务器版本 `SELECT VERSION();`
+- 显示当前日期时间 `SELECT NOW();`
+- 显示当前用户 `SELECT USER();`
+
+PART 2
+- 列出所有数据库 `SHOW DATABASES;`
+- 切换数据库 `USE '数据库名';`
+- 列出所有表 `SHOW TABLES;`
+- 显示数据表结构 `DESCRIBE 表名;`
+- 删除数据库，数据表 `DROP DATABASE 数据库名;` 和 `DROP TABLE 数据表名;`
+
+PART 3
+- 未进入修改密码 `mysqladmin -u用户名 -p旧密码 password 新密码`
+- 进入后修改密码 `UPDATE mysql.user SET password=PASSWORD('新密码') WHERE User='root';` ，刷新 `FLUSH PRIVILEGES;`
+
+PART 4
+- 创建用户并授权 `GRANT SELECT ON 数据库.* TO 用户名@登录主机 IDENTIFIED BY "密码";`
+- 撤销授权 `REVOKE ALL ON *.* FROM user@localhost;` ，刷新 `FLUSH PRIVILEGES;`
+- 显示所有用户 `SELECT user,host FROM mysql.user;`
+- 删除用户 `DELETE FROM user WHERE User='test' AND Host='localhost';` ，刷新 `FLUSH PRIVILEGES;` ，删除 `DROP DATABASE 该用户数据库名;`
+
+2. 语句规范：
+- 关键字与函数名全部大写。
+- 数据库、表、字段名称全部小写。
+- SQL 语句全部以分号结尾。
 
 # 二 MySQL 安装
 1. 注意：MySQL 5.7 版本与之前版本存在一些不同。
