@@ -87,3 +87,8 @@ PART 4
 - MySQL 旧版安装类型：典型安装、完全安装、定制安装。MySQL 5.7 改成了：开发者默认、只安装 MySQL 服务、只安装 MySQL 客户端、全部安装、手动选择。
 
 2. 安装教程：[参考博文](https://blog.csdn.net/hebbely/article/details/52370179)
+
+# 三 使用 MySQL
+- 配置好环境变量开启服务，直接在 CMD 中使用。
+- 使用 MySQL 安装的命令行客户端 MySQL 5.7 Command Line Client。
+- 使用 MySQL 安装的图形客户端 MySQL Workbench。
