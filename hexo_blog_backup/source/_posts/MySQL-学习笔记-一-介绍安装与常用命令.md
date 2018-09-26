@@ -1,6 +1,6 @@
 ---
 title: MySQL 学习笔记 一 介绍安装与常用命令
-date: 2018-09-17 22:32:14
+date: 2018-09-02 22:32:14
 tags: 数据库
 ---
 > 课程视频：
@@ -92,3 +92,8 @@ PART 4
 - 配置好环境变量开启服务，直接在 CMD 中使用。
 - 使用 MySQL 安装的命令行客户端 MySQL 5.7 Command Line Client。
 - 使用 MySQL 安装的图形客户端 MySQL Workbench。
+
+# 三 图形化管理工具
+- MySQL Workbench
+- phpMyAdmin
+- Navicat for MySQL
