@@ -1,5 +1,5 @@
 ---
-title: Python 语言学习 强化
+title: Python 语言学习 强化（上）
 date: 2018-09-08 21:20:11
 tags: Python
 ---
@@ -103,3 +103,24 @@ f.close()
 ![文件拷贝代码示例](图15.PNG)
 
 ## 2 字典
+1. 概念：
+`zd = {"key":"value",...}` 键-值，通过键来找到对应的值。会自动优化排列顺序，字典是无序的。
+
+2. 关于字典的操作：
+- 建立字典：`zd = {}` 或 `zd = {"key":"value",...}`
+- 为字典增加一项：`zd[key]=value`
+- 访问字典中的值：`zd[key]`
+- 删除某值：`del zd[key]`
+- 字典的遍历：
+```
+for key in zd:
+	print(key + ":" + str(zd[key]))
+```
+![字典的遍历类型](图16.PNG)
+- 判断一个键是否在字典中：`in 或 not in` 例 `keyname in zd` 返回 True 或 False
+
+3. 字典标准操作符：
+![字典标准操作符](图17.PNG)
+
+4. 字典方法：
+![字典方法](图18.PNG)

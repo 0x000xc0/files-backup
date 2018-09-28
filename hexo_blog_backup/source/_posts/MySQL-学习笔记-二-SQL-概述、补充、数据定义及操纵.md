@@ -90,7 +90,7 @@ FOREIGN KEY(c_id) REFERENCES course(c_id)
 ```
 ALTER TABLE table_name
 ADD <新列名> <数据类型> [完整型约束] [FIRST|AFTER 列名],
-ADD [CONSTRAINT 约束名] <完整型约束(列名) [ON DELETE 外键约束参照操作]>,
+ADD [CONSTRAINT 约束名] <完整型约束>(列名) [ON DELETE 外键约束参照操作],
 
 ALTER <列名> <数据类型>,
 ALTER <列名> <SET DEFAULT 值|DROP DEFAULT>,
@@ -109,11 +109,53 @@ ALTER TABLE table_name MODIFY <列名> <数据类型>;
 3. 删除：`DROP TABLE <表名> [外键约束参照操作];`
 
 ## 3 视图定义
+视图是从一个或几个基本表或视图导出的表，只存放定义，不存放数据。
+1. 定义：
+AS 后面是子查询。
+`[WITH [CASCADED|LOCAL] CHECK OPTION]` 决定了是否允许更新数据记录不再满足视图的条件。local 只要满足本视图的条件就可以更新,cascaded 必须满足所有针对该视图的所有视图的条件才可以更新，默认是 cascaded。
+```
+CREATE VIEW <视图名>(列1，列2...)
+AS [SELECT 表名.列1,表名.列2...) FROM 表名]
+[WITH [CASCADED|LOCAL] CHECK OPTION]; 
+
+例：
+CREATE VIEW student_view(id,name)
+AS SELECT student.s_id,student.s_name
+FROM student;
+```
+
+2. 修改：
+```
+CREATE OR REPLACE VIEW <视图名>(列1，列2...)
+AS [SELECT 表名.列1,表名.列2...) FROM 表名]
+[WITH [CASCADED|LOCAL] CHECK OPTION];
+```
+
+3. 删除：
+该视图还导出其他视图可级联删除。
+```
+DROP VIEW <视图名> [CASCADE];
+```
 
 ## 4 索引定义
+通过 BTREE、HASH 算法来建立索引（对某列等），加快查询速度。
+
+1. 定义：
+如果是 CHAR，VARCHAR 类型，length 可以小于字段实际长度；如果是 BLOB 和 TEXT 类型，必须指定 length。
+`[UNIQUE|CLUSTER]` 前者指每个索引值对应唯一数据记录，后者指索引项顺序与表中物理顺序一致。
+```
+CREATE [UNIQUE|CLUSTER] INDEX <索引名> ON <表名>(<列名>(长度));
+或
+ALTER TABLE <表名> ADD INDEX <索引名>(<列名>(长度));
+```
+
+2. 删除：
+```
+DROP INDEX <索引名>;
+```
 
 # 三 数据操纵
-## 1 表操纵
+## 1 表、视图操纵
 1. 增：
 ```
 对特定列赋值：
@@ -136,7 +178,7 @@ VALUES (<常量 1>,...);
 ```
 UPDATE <表名>
 SET <列名>=<表达式>,...
-<条件>；
+WHERE <条件>；
 ```
 
 3. 删：
@@ -145,9 +187,18 @@ DELETE FROM <表名>
 WHERE <条件>;
 ```
 
-4. 补充：
+4. 表补充：
 通常可以先分组再排序。
 GROUP BY：对结果分组，`GROUP BY <列名> [ASC|DESC]` (升序，降序)。
 ORDER BY：对结果分组，`ORDER BY <列名> [ASC|DESC]` (升序，降序)。
 HAVING：分组的条件，`HAVING <条件>`
 LIMIT：限制返回的数量，`LIMIT 开始位置 条数` ，从头开始可不写开始位置。
+
+5. 视图特点：[参考博文](https://blog.csdn.net/dyushuo6230/article/details/80413082)
+视图的可更新性和视图中查询的定义有关系，以下类型的视图是不可更新的。
+- 包含一下关键字的 sql 语句：聚合函数（sum,min,max,count 等）,distinct,group by,having,union 或者 union all。
+- 常亮视图。
+- select中包含子查询。
+- jion。
+- from 一个不能更新的视图。
+- where 句子的子查询引用了 from 句子中的表。
