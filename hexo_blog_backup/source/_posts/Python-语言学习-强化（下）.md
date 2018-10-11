@@ -105,9 +105,9 @@ setup(console=['目标文件.py'])
 
 4. Office 编程：
 需要的库：
-xlwt 库，生成 excel 表单，pip 安装；Xlrd 库，读入并处理 excel 表单，pip 安装。
-Python-docx 库，创建并更新 word 文件，pip 安装；其 lxml 依赖库用 wheel 安装。
-Python-pptx 库，创建并更新 powerpoint 文件，pip 安装。
+- xlwt 库，生成 excel 表单，pip 安装；Xlrd 库，读入并处理 excel 表单，pip 安装。
+- Python-docx 库，创建并更新 word 文件，pip 安装；其 lxml 依赖库用 wheel 安装。
+- Python-pptx 库，创建并更新 powerpoint 文件，pip 安装。
 
 # 三 交互式图形编程
 
