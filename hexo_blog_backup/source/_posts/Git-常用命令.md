@@ -42,7 +42,7 @@ ssh git@github.com  //测试是否成功。
 
 1. 获取远程数据：
 `git fetch [remote-name]` 不会合并，
-`git pull [remote-name] [branch-name]` 会获取并合并。 // `git push origin master`
+`git pull [remote-name] [branch-name]` 会获取并合并。 // `git pull origin master`
 
 2. 推送本地数据：
 `git push [remote-name] [branch-name]`。  // `git push origin master`
