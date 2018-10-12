@@ -1,5 +1,5 @@
 ---
-title: Windows 批处理实例 发布博客与备份博文
+title: Windows 批处理实例 发布测试博客与备份博文
 date: 2018-10-13 02:27:31
 tags: 操作系统命令与脚本
 ---
@@ -20,10 +20,35 @@ call  hexo clean
 call  hexo g
 call  hexo d
 
-pause
+timeout /t 3
 ```
 
-# 二 备份博文
+# 二 测试博客
+```
+@echo off
+rem @author：Marlous 2018/10/13
+rem 脚本说明：测试 HEXO 博客，自动打开浏览器。
+
+rem ---设置---博客所在盘符，目录。
+set disk=E:
+set blogPath=E:\WorkZone\Repositories\my-blog
+
+%disk%
+cd %blogPath%
+
+start hexo server
+
+rem ---设置---测试地址，火狐浏览器所在目录,路径有空格用引号包裹，防止误认为多个参数。
+set testPath=http://localhost:4000/
+
+rem 等待 3 秒。
+timeout /t 3
+
+set browsePath="D:\Program Files\Mozilla Firefox\firefox.exe"
+start %browsePath% %testPath%
+```
+
+# 三 备份博文
 ```
 @echo off
 rem @author：Marlous 2018/10/13
@@ -62,5 +87,5 @@ git commit -m "v%yyyy%%mm%%dd%"
 git push origin master
 
 rem pause>nul 进行从定向，所有的提示都不显示。
-pause
+timeout /t 3
 ```
