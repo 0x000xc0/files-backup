@@ -8,6 +8,16 @@ tags: 操作系统命令与脚本
 - `命令 /?`
 作用：查看该命令帮助。
 
+- 将旧文件夹 A 替换为新文件夹 A：
+```
+rd /S /Q D:\A
+D:
+cd D:\document
+mkdir A 
+xcopy /E C:\A D:\document\A
+```
+先删除整个 D 盘旧 A 文件夹；进入 D 盘并创建文件夹 A；将新 A 文件夹中的所有内容复制过去（命令可以删除整个文件夹，但复制只能复制某个文件夹中的全部内容）。
+
 - `md/mkdir`
 作用：创建一个子目录（make directory）。
 语法：`md[C:][path]〈subPath〉`
