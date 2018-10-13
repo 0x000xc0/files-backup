@@ -30,11 +30,13 @@ GPT：一个较新的分区机制，解决了 MBR 很多缺点。向后兼容 MB
 安装教程 2 需设置引导：[文档](https://mini.eastday.com/mobile/170422224816708.html)
 安装教程 2 需设置引导：[文档](https://bbs.deepin.org/forum.php?mod=viewthread&tid=158334&extra=)
 
-一般先安装 Windows，后装 Linux，安装 Linux 会自动配置好引导，反过来 Windows 比较霸道会覆盖掉 Linux 的引导。
+1. 注意：一般先安装 Windows，后装 Linux，安装 Linux 会自动配置好引导，反过来 Windows 比较霸道会覆盖掉 Linux 的引导。
 最好用 MBR 去引导 GRUB，以免反过来在删除 Linux 后出问题（用 EasyBCD 配置）；删除 Linux 导致 windows 进入不了，也可以进入 PE 系统用 diskgeniu 重建 MBR 解决。
 
+2. 安装过程：
 - 考虑引导问题：Windows 下准备好划分出一定的磁盘空间；用 UltraISO 写入 U 盘映像；设置 BIOS 启动顺序和其他配置；安装 Linux 后重启；用 EasyBCD 配置好引导问题（如果无法进入 Linux 的话需此步）。
 - 不需要考虑引导问题：如支持 Wubi 安装（Deepin），如同 Windows 操作系统里的其他软件一样安装卸载 Linux。
 
+3. 引导问题解决方法（EasyBCD 使用）：参考 https://www.cnblogs.com/bluestorm/p/3310941.html
 
 
