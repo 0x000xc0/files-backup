@@ -1,6 +1,6 @@
 ---
 title: 双系统原理与安装（Windows、Deepin）
-date: 2018-10-13 21:53:00
+date: 2018-10-14 03:53:00
 tags: 记录小结
 ---
 # 双系统原理
@@ -39,12 +39,17 @@ GPT：一个较新的分区机制，解决了 MBR 很多缺点。向后兼容 MB
 - 不用 U 盘（参见安装教程 2）：Windows 下准备好划分出一定的磁盘空间；用 EasyBCD 配置好引导问题；重启电脑，就可以找到新添加的 NeoGrub 启动项，选中它启动 live 版本 deepin 安装。
 - Wubi 安装：不需要考虑引导，如支持 Wubi 安装。如同 Windows 操作系统里的其他软件一样安装卸载 Linux。
 
-3. 补充用 U 盘安装后，改为 MBR 引导 GRUB：[参考教程](https://www.cnblogs.com/sikewang/p/4609527.html)
+3. 补充用 U 盘安装后，改为 MBR 引导 GRUB：[参考教程](https://bbs.deepin.org/forum.php?mod=viewthread&tid=133745)
 
-- 打开 EasyBCD 软件（手动加载备份的引导文件，装双系统前备份的）。
-- 用 EasyBCD 配置，添加 GRUB 条目。调整 Windows 引导、GRUB 顺序，保存。
+- 先恢复 MBR 引导。使用 U 启动盘（老毛桃 PE）进入 PE，用 NTBOOTautofix 修复 MBR；然后用 DiskGenius，选择 C 盘，分区 > 激活当前分区 > 保存更改。
+- 用 EasyBCD 配置，添加 GRUB 条目。（调整 Windows 引导、GRUB 顺序）保存。
 ![EasyBCD 配置 1](图2.PNG)
 ![EasyBCD 配置 2](图3.PNG)
-- 用 MbrFix.exe 将 GRUB 覆盖掉。进入 MbrFix.exe 所在位置，管理员权限命令行 `MbrFix /drive 0 fixmbr /yes`。
 
 （删除 Linux 导致 windows 进入不了，也可以进入 PE 系统用 diskgenius 重建 MBR 解决。）
+
+4. 实测情况：
+- 用 U 盘安装后正常，改为 MBR 引导（第 3 点的方法第一条，恢复 MBR 引导）正常进入 Windows，但进入后用 EasyBCD 添加 Linux 引导后并未出现在开机管理程序选项中（无选项直接进入 Windows）失败。如果不想改为 MBR 引导直接用，下次在删除 Linux 前，依然使用恢复 MBR 引导的方法，然后删除其分区。
+- 可改用第二种方法不用 U 盘安装，[教程文档](https://bbs.deepin.org/forum.php?mod=viewthread&tid=158334&extra=)。
+
+5. 总结：用 U 盘安装，下次不想使用 Linux 前，用 PE 恢复 MBR 引导或用 EasyUEFI 删除其启动项（前 BIOS+MBR，后 UEFI+GPT 情况），然后进 Windows 删除其分区。参考：[Windows 下卸载](https://wiki.deepin.org/wiki/%E7%B3%BB%E7%BB%9F%E5%8D%B8%E8%BD%BD)
