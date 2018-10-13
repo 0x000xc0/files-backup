@@ -25,18 +25,17 @@ GPT：一个较新的分区机制，解决了 MBR 很多缺点。向后兼容 MB
 
 # Windows 与 Deepin 双系统安装
 > Deepin 官方文档：[文档](https://wiki.deepin.org/wiki/%E5%8E%9F%E7%94%9F%E5%AE%89%E8%A3%85#.E5.A4.9A.E7.A1.AC.E7.9B.98.E6.97.B6.E5.AE.89.E8.A3.85_deepin_.E5.87.BA.E7.8E.B0.E7.9A.84.E6.97.A0.E6.B3.95.E5.BC.95.E5.AF.BC.E7.9A.84.E9.97.AE.E9.A2.98)
-安装教程概述：[文档](https://www.sohu.com/a/131947517_512490)
 安装教程 1 不需要设置引导：[文档](https://jingyan.baidu.com/article/17bd8e524527a985ab2bb82e.html)
-安装教程 2 需设置引导：[文档](https://mini.eastday.com/mobile/170422224816708.html)
 安装教程 2 需设置引导：[文档](https://bbs.deepin.org/forum.php?mod=viewthread&tid=158334&extra=)
 
 1. 注意：一般先安装 Windows，后装 Linux，安装 Linux 会自动配置好引导，反过来 Windows 比较霸道会覆盖掉 Linux 的引导。
 最好用 MBR 去引导 GRUB，以免反过来在删除 Linux 后出问题（用 EasyBCD 配置）；删除 Linux 导致 windows 进入不了，也可以进入 PE 系统用 diskgeniu 重建 MBR 解决。
 
 2. 安装过程：
-- 考虑引导问题：Windows 下准备好划分出一定的磁盘空间；用 UltraISO 写入 U 盘映像；设置 BIOS 启动顺序和其他配置；安装 Linux 后重启；用 EasyBCD 配置好引导问题（如果无法进入 Linux 的话需此步）。
-- 不需要考虑引导问题：如支持 Wubi 安装（Deepin），如同 Windows 操作系统里的其他软件一样安装卸载 Linux。
+- 考虑引导问题，U 盘安装：Windows 下准备好划分出一定的磁盘空间；用 UltraISO 解压出其中的 deepin-boot-maker.exe，用它来制作 U 盘映像；设置 BIOS 启动顺序和其他配置；安装 Linux 后重启；用 EasyBCD 配置好引导问题（如果无法进入 Linux 的话需此步）。
+- 考虑引导问题，不用 U 盘（参见安装教程 2）：Windows 下准备好划分出一定的磁盘空间；用 EasyBCD 配置好引导问题；重启电脑，就可以找到新添加的 NeoGrub 启动项，选中它启动 live 版本 deepin 安装。
+- 不需要考虑引导，Wubi 安装：如支持 Wubi 安装（Deepin），如同 Windows 操作系统里的其他软件一样安装卸载 Linux。
 
-3. 引导问题解决方法（EasyBCD 使用）：参考 https://www.cnblogs.com/bluestorm/p/3310941.html
+3. 引导问题解决方法（EasyBCD 使用）：[参考 1](https://bbs.deepin.org/forum.php?mod=viewthread&tid=158334&extra=)、[参考 2](https://www.cnblogs.com/bluestorm/p/3310941.html) 
 
 
