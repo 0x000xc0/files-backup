@@ -30,15 +30,21 @@ GPT：一个较新的分区机制，解决了 MBR 很多缺点。向后兼容 MB
 
 1. 注意：
 - 一般先安装 Windows，后装 Linux，安装 Linux 会自动配置好引导，反过来 Windows 比较霸道会覆盖掉 Linux 的引导。
-- 最好用 MBR 去引导 GRUB，以免反过来在删除 Linux 后（由于 GRUB 被删除）出问题,U 盘安装方法会导致反过来。（用 EasyBCD 配置，添加条目，调整 Windows 引导、GRUB 顺序，MbrFix.exe 将 GRUB 覆盖掉。[参考教程](https://www.cnblogs.com/sikewang/p/4609527.html)；删除 Linux 导致 windows 进入不了，也可以进入 PE 系统用 diskgenius 重建 MBR 解决。）
+- 最好用 MBR 去引导 GRUB，以免反过来在删除 Linux 后（由于 GRUB 被删除）出问题,U 盘安装方法会导致反过来。
 - 用 EasyBCD 备份好引导文件。
 
 2. 安装过程：Wubi 安装最简单稳妥；U 盘安装其次简单；不用 U 盘比较复杂和 Wubi 一样稳妥。
 
-- U 盘安装：Windows 下准备好划分出一定的磁盘空间；用 UltraISO 解压出其中的 deepin-boot-maker.exe，用它来制作 U 盘映像；设置 BIOS 启动顺序等其他配置；安装 Linux 后重启；进入 Windows 用 EasyBCD 配置好引导问题（如果无法进入 Linux 的话需此步，U 盘安装是 Grub 引导 MBR，可用 EasyBCD 重新设置顺序[参考教程](https://www.cnblogs.com/sikewang/p/4609527.html)）。
+- U 盘安装：Windows 下准备好划分出一定的磁盘空间；用 UltraISO 解压出其中的 deepin-boot-maker.exe，用它来制作 U 盘映像；设置 BIOS 启动顺序等其他配置；安装 Linux 后重启；进入 Windows 用 EasyBCD 配置好引导问题（如果无法进入 Linux 的话需此步。U 盘安装是 Grub 引导 MBR，可用 EasyBCD 重新设置顺序）。
 - 不用 U 盘（参见安装教程 2）：Windows 下准备好划分出一定的磁盘空间；用 EasyBCD 配置好引导问题；重启电脑，就可以找到新添加的 NeoGrub 启动项，选中它启动 live 版本 deepin 安装。
 - Wubi 安装：不需要考虑引导，如支持 Wubi 安装。如同 Windows 操作系统里的其他软件一样安装卸载 Linux。
 
-3. 补充引导问题解决方法（EasyBCD 使用）：[参考 1](https://bbs.deepin.org/forum.php?mod=viewthread&tid=158334&extra=)、[参考 2](https://www.cnblogs.com/bluestorm/p/3310941.html) 
+3. 补充用 U 盘安装后，改为 MBR 引导 GRUB：[参考教程](https://www.cnblogs.com/sikewang/p/4609527.html)
 
+- 打开 EasyBCD 软件（手动加载备份的引导文件，装双系统前备份的）。
+- 用 EasyBCD 配置，添加 GRUB 条目。调整 Windows 引导、GRUB 顺序，保存。
+![EasyBCD 配置 1](图2.PNG)
+![EasyBCD 配置 2](图3.PNG)
+- 用 MbrFix.exe 将 GRUB 覆盖掉。进入 MbrFix.exe 所在位置，管理员权限命令行 `MbrFix /drive 0 fixmbr /yes`。
 
+（删除 Linux 导致 windows 进入不了，也可以进入 PE 系统用 diskgenius 重建 MBR 解决。）
