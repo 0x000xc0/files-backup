@@ -14,13 +14,14 @@ Debian、Red Hat、Slackware。
 ![Linux 操作系统构成](图2.PNG)
 
 3. 不同 Linux 发行版本间差异：
+- 命令分为 Bash 命令和应用程序命令。Bash 作为许多 Linux 发行版的默认 Shell，其命令相同；不同的 Linux 版本所用的应用程序不同，其命令也不同。
 
-
-
-
+- 不同版本 Linux 用的包管理软件：[参考博文](https://blog.csdn.net/lusing/article/details/53669250)
+影响最大的两个系列，debian 的 dpkg（前端工具是 apt）和 Red Hat 的 rpm 包（rpm 与 yum：rpm 只能安装已经下载到本地机器上的 rpm 包；yum 能在线下载并安装 rpm 包，能更新系统，且还能自动处理包与包之间的依赖问题。）两大系列。
+![不同版本 Linux 用的包管理软件](图3.PNG)
 
 4. 目录结构：
-![目录结构](图3.PNG)
+![目录结构](图4.PNG)
 
 注：/usr 为系统及目录；/usr/local 为用户程序目录，一般装自己编译的软件；/opt 装应用软件。
 
