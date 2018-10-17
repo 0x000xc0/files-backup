@@ -29,3 +29,5 @@ GitBook 的使用和 GitHub 的使用非常相似，其客户端为 GitBook Edit
 
 2. 若发布失败可在书主页的 UPDATES 中按哈希选择重新发布。
 ![Restart this build](图4.PNG)
+
+# 三 补充之本地编译

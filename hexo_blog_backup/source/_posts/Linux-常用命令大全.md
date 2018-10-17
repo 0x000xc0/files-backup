@@ -3,7 +3,7 @@ title: Linux 常用命令大全
 date: 2018-08-02 20:17:35
 tags: Linux
 ---
-> @Marlous 整理、编写。
+> Author：@Marlous（整理、编写。）
 
 > 参考资料：
 [参考 1](https://my.oschina.net/feichexia/blog/214899)
