@@ -43,7 +43,8 @@ hdparm -s /dev/sda      # 测试sda硬盘上不可读的块
 ```
 top                       # 显示并不断更新最耗CPU的进程 
 mpstat 1                  # 显示CPU统计信息 
-vmstat 2                  # 显示虚拟内存统计信息 
+vmstat 2                  # 显示虚拟内存统计信息
+free                      # 显示物理内存使用情况 
 iostat 2                  # 显示IO统计信息（2s采样间隔） 
 tcpdump -i eth1           # 捕获eth1网络接口上的所有数据包 
 tcpdump -i eth0 'port 80' # 监控80端口的网络流量 
@@ -56,7 +57,7 @@ lslk        			  # 列出本地锁
 
 ## 4 磁盘使用率
 ```
-df -h    # 查看磁盘可用空间
+df -h    # 查看磁盘可用空间，和其他参数
 du -ah   # 以人类可读形式显示磁盘使用情况
 du -sh   # 以人类可读形式显示当前目录下磁盘使用情况
 ```
@@ -242,8 +243,13 @@ logout                      # 注销
 
 ## 2 进程
 ```
-ps                      # 显示所有进程
-ps -s | grep ssh        # 查看某应用状态
+ps                                 # 显示所有进程
+pstree                             # 查看进程树
+ps -s | grep ssh                   # 查看某应用状态
+service 服务名 status               # 查看某服务状态
+service --status-all               # 列出所有服务
+chkconfig --list | grep 'XXX'      # 查看某服务配置
+chkconfig --level 35 XXX on        # XXX 服务在 3，5启动级别下启动
 
 pidof                   # 根据进程名查找正在运行的进程的进程号
 pgrep                   # 按名称和其他属性查找进程
@@ -306,6 +312,9 @@ head file             # 显示文件开头10行内容
 tail file             # 显示文件末尾10行内容 
 less                  # 回卷显示文本文件的内容
 cat filename          # 显示文件内容
+
+ln -s source target   # 软链接（符号链接） 
+ln source target      # 硬链接（实体链接）
 
 ---------------------------------------------------------------------------------------
 gpg -c file      # 加密文件，文件以gpg为后缀 
@@ -442,11 +451,34 @@ umount /dev/hda2                       # 卸载一个叫做hda2的盘（先从�
 umount -n /mnt/hda2                    # 运行卸载操作而不写入 /etc/mtab 文件，当文件为只读或当磁盘写满时非常有用 
 ```
 
-## 6 软件管理
-1. 补充，编译与安装：
+## 6 磁盘
+[使用 fdisk 分区参考资料](https://jingyan.baidu.com/article/425e69e6fd729dbe15fc16ec.html)
 ```
+# fdisk 和 mkfs 命令必须以管理员身份运行。
+fdisk -l /dev/sda          # 查看第一块硬盘，无设备名则是全部信息
+
+# 一些操作，可见帮助。 fdisk 要操作的磁盘或分区；删除或创建分区；保存后退出，然后格式化。
+m   # 显示菜单和帮助信息
+a   # 活动分区标记/引导分区
+d   # 删除分区
+l   # 显示分区类型
+n   # 新建分区
+p   # 显示分区信息
+q   # 退出不保存
+t   # 设置分区号
+v   # 进行分区检查
+w   # 保存修改
+x   # 扩展应用，高级功能
+```
+
+## 7 软件管理
+1. 补充，下载，编译与安装：
+```
+# 从链接下载
+wget 链接
+
 # 编译好的软件压缩包：直接解压后放入 /opt 目录，运行该软件文件夹中的可执行文件。
-先进入目标软件的文件夹
+# 未编译好的：解压，进入目标软件的文件夹，运行配置脚本，编译，安装。
 ./configure --prefix=/opt/filename
 make
 make install
@@ -522,7 +554,7 @@ yum clean all                         # 删除所有缓存的包和头文件
 # 四 net
 网络相关配置文件：
 ```
-网卡配置文件： /etc/sysconfig/network-scripts/ifcfg-eth0
+网卡配置文件： /etc/sysconfig/network-scripts/ifcfg-eth0  # 配置IP可能要先关掉守护进程，network-manager服务
 DNS 配置文件： /etc/resolv.conf
 主机名配置文件： /etc/sysconfig/network
 静态主机名配置文件： /etc/hosts
@@ -530,6 +562,7 @@ DNS 配置文件： /etc/resolv.conf
 
 ```
 ipaddr           # 查看IP地址
+ifconfig eth0 up # 网卡开启，down 为关闭
 ifconfig -a      # 列出所有网络端口和IP地址
 ifconfig eth0    # 列出指定以太网端口对应的IP地址和详细信息
 ethtool eth0     # 查看以太网状态
@@ -539,6 +572,7 @@ ping host        # ping测试
 ip route         # 显示路由表
 traceroute       # trace追踪
 mtr              # 网络质量测试
+route            # 路由相关
 whois domain     # 获取指定域名的信息
 dig domain       # 获取指定域名的DNS信息
 dig -x host      # 根据主机地址反向查找

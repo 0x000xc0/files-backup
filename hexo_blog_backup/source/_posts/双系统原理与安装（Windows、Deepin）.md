@@ -8,8 +8,8 @@ tags: 记录小结
 
 1. 操作系统启动过程（双系统）：先执行 BIOS 程序去找硬盘；执行硬盘第一个扇区中 MBR 中的引导代码（boot loader 开机管理程序，其功能直接载入操作系统，提供不同开机选项，转交其他 loader）；MBR 中的 引导代码去执行用来引导 Linux 的 boot loader。
 
-- 双系统 Linux 大致启动过程：BIOS > MBR（boot loader）> Grub > 装载 Linux 操作系统。
-- Windows 大致启动过程：BIOS > MBR（boot loader）> 装载 Windows 操作系统。
+- 双系统 Linux 大致启动过程：BIOS > MBR > Grub > 装载 Linux 操作系统（Grub 像 bootloader 一样装在 MBR）。
+- Windows 大致启动过程：BIOS > MBR > bootloader > 装载 Windows 操作系统。
 - Windows 启动具体过程：BIOS > MBR > DPT > pbr > Bootmgr > bcd > Winload.exe > 内核加载 > 整个 Windows。
 
 2. 分区：一块硬盘进行高级格式化（逻辑分区），方便管理。（低级格式化为分磁道扇区）。主流分区机制为 MBR、GPT 两种。分区个数取决于分区表所能存储的描述磁盘分区的情况。
