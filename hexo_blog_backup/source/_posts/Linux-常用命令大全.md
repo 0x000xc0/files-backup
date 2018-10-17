@@ -3,7 +3,7 @@ title: Linux 常用命令大全
 date: 2018-08-02 20:17:35
 tags: Linux
 ---
-> Author：@Marlous（整理、编写。）
+> Author：Marlous（整理、编写）
 
 > 参考资料：
 [参考 1](https://my.oschina.net/feichexia/blog/214899)
@@ -11,7 +11,7 @@ tags: Linux
 [参考 3](http://blog.51cto.com/3204960/2069202)
 不同发行版本 Linux 命令会略有不同。
 
-# 补充之查看各种信息
+# 一 补充之查看各种信息
 ## 1 系统信息
 ```
 uname -a      # 显示Linux系统信息 
@@ -62,7 +62,7 @@ du -ah   # 以人类可读形式显示磁盘使用情况
 du -sh   # 以人类可读形式显示当前目录下磁盘使用情况
 ```
 
-# 补充之日常操作
+# 二 补充之日常操作
 ## 1 获取命令的系统帮助信息
 ```
 获取命令的系统帮助信息
@@ -148,7 +148,7 @@ ex 模式下：
 :sh            # 切换到命令行，ctrl+d 切回 vi
 ```
 
-# 一 user
+# 三 user
 ## 1 用户与群组
 ```
 su - username              # 切换用户（全新的环境）
@@ -230,7 +230,7 @@ chattr +u file1      # 若文件被删除，系统会允许你在以后恢复这
 lsattr               # 显示特殊的属性 
 ```
 
-# 二 system
+# 四 system
 ## 1 关机/重启/登陆
 ```
 shutdown -h now             # 关闭系统
@@ -276,7 +276,7 @@ fuser                   # 显示哪些进程使用指定的文件、套接字或
 nohup                   # 运行指定的命令不受挂起
 ```
 
-# 三 data
+# 五 data
 ## 1 文件操作
 ```
 pwd                                   # 显示当前所在路径
@@ -551,7 +551,7 @@ yum clean headers                     # 删除所有头文件
 yum clean all                         # 删除所有缓存的包和头文件
 ```
 
-# 四 net
+# 六 net
 网络相关配置文件：
 ```
 网卡配置文件： /etc/sysconfig/network-scripts/ifcfg-eth0  # 配置IP可能要先关掉守护进程，network-manager服务
