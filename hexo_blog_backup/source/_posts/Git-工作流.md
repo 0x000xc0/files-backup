@@ -1,7 +1,7 @@
 ---
 title: Git 工作流
 date: 2018-06-13 00:43:46
-tags: Git
+tags: 版本控制
 ---
 # 一 概述 Github flow
 1. 创建一个新分支。

@@ -1,7 +1,7 @@
 ---
 title: Git 常用命令
 date: 2018-06-16 23:17:42
-tags: Git
+tags: 版本控制
 ---
 Git 笔记。
 图形化 GUI 工具可以使用 GitHub 官方客户端或 SourceTree 等。

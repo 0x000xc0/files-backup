@@ -1,7 +1,7 @@
 ---
 title: 开源项目的 README 与 gitignore
 date: 2018-09-22 20:58:06
-tags: Git
+tags: 软件工程
 ---
 # 一 README 通用模板
 > README 介绍 1：[参考文章](https://zhuanlan.zhihu.com/p/29136209)

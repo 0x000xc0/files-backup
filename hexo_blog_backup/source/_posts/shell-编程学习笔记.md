@@ -1,14 +1,16 @@
 ---
-title: shell 编程（Linux 平台）
+title: shell 编程学习笔记
 date: 2018-10-11 01:23:34
 tags: Linux
 ---
 > [参考教程 1](http://www.runoob.com/linux/linux-shell-variable.html)
 [参考博文 1](https://www.jb51.net/article/123081.htm)
 [参考博文 2](https://blog.csdn.net/zwx19921215/article/details/21098391?utm_source=blogxgwz1)
-[参数博文 3](https://blog.csdn.net/simple_the_best/article/details/76285429)
+[参考博文 3](https://blog.csdn.net/simple_the_best/article/details/76285429)
+[慕课网课程 shell 编程系列]()
 
-# 一 shell 注释模板
+# 一 shell 注释模板与运行
+## 1 注释模板
 ```
 #!/bin/bash
 # -------------------------------------------------------------------
@@ -22,15 +24,18 @@ tags: Linux
 # --------------------------------------------------------------------
 ```
 
-# 二 运行 shell 脚本
+## 2 运行 shell 脚本
 ```
 cd 到该脚本目录下
 chmod +x ./test.sh   #给脚本执行权限
 ./test.sh            #执行该脚本
 ```
 
-# 三 shell 编程
+# 二 shell 编程
 ## 1 变量
+分为用户自定义变量、环境变量、预定义变量。
+shell 中默认为字符串类型。
+
 1. 变量赋值与引用：
 ```
 给变量赋值： num=12 或 string="zifuchuan"
