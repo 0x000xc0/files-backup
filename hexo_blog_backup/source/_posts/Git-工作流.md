@@ -56,7 +56,7 @@ tags: 版本控制
 文章：https://nvie.com/posts/a-successful-git-branching-model/
 
 git 的最佳实践简化图：
-![git 的最佳实践简化图](图1.PNG)
+![最佳实践简化图](图1.PNG)
 
 1. master 分支作为中央仓库主分支，并且功能分支不是从 master 分支上拉出新分支，而是使用 deve 分支作为父分支。
 
