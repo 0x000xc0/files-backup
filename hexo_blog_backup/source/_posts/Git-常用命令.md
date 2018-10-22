@@ -4,7 +4,7 @@ date: 2018-06-16 23:17:42
 tags: 版本控制
 ---
 Git 笔记。
-图形化 GUI 工具可以使用 GitHub 官方客户端或 SourceTree 等。
+图形化 GUI 工具可以使用 GitHub 官方客户端或 SourceTree、GitKraken 等。
 
 参考文档：
 [Git 参考文档](https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%88%9D%E6%AC%A1%E8%BF%90%E8%A1%8C-Git-%E5%89%8D%E7%9A%84%E9%85%8D%E7%BD%AE) 
@@ -55,6 +55,12 @@ ssh git@github.com  //测试是否成功。
 - 创建+切换分支：`git checkout -b [name]`
 - 合并分支：先切到要合并到的分支，`git merge [name]`
 - 删除分支：`git branch -d [name]`
+
+补充：分支合并（merge）的三种方式。[参考博文](https://www.cnblogs.com/charlesblc/p/6132384.html)
+`--no-ff` 是强行关闭 fast-forward 方式。
+`squash` 是用来把一些不必要 commit 进行压缩，进行一次额外的 commit 来总结一下，然后完成最终的合并。
+`fast-forward`，如果删除分支，则会丢失分支信息。因为在这个过程中没有创建 commit。
+![分支合并（merge）的三种方式](图1.PNG)
 
 ## 2 查看文件
 - 查看文件状态用 `git status` 命令。
