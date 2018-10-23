@@ -22,7 +22,7 @@ tags: 软件工程
 快捷方式目标的正确路径书写示例：`"D:\Program Files\Git\bin\bash.exe" --login -i "C:\Program Files\Docker Toolbox\start.sh"`
 
 # 三 Docker
-## 虚拟化种类
+## 1 虚拟化种类
 - 全虚拟化：应用程序实现。
 ![全虚拟化](图1.PNG)
 
@@ -32,7 +32,7 @@ tags: 软件工程
 - 硬件层虚拟化：
 ![硬件层虚拟化](图3.PNG)
 
-## Docker 原理与组成
+## 2 Docker 原理与组成
 1. 组成：Docker Client 客户端、Docker Daemon 守护进程、Docker Image 镜像、Docker Container 容器。
 
 2. 原理：容器技术类似 OS 层虚拟化（不等同），容器本质上是基于应用的，虚拟出运行环境。容器相当于一个个运行的小操作系统，但它是共享宿主机操作系统内核的。
@@ -122,19 +122,23 @@ docker rm 容器名
 
 ## 2 制作、备份与迁移
 1. 制作镜像：
-- 将容器保存为镜像：
+- 将容器制作为镜像：
 ```
 docker commit 容器名 起个镜像名
 ```
 
-- 用 dockerfile 构建一个镜像:[参考博文](https://blog.csdn.net/qq_29999343/article/details/78318397)
+- 用 dockerfile 构建一个镜像：类似于安装脚本。
+选一个空目录；编写 dockerfile； 在 Dockerfile 文件所在目录执行构建命令。
+[参考博文 1](https://blog.csdn.net/qq_29999343/article/details/78318397) [参考博文 2](https://blog.csdn.net/wo18237095579/article/details/80540571)
 
 2. 镜像备份：
+备份及恢复（导出导入）的镜像都在宿主机执行 docker 命令所在位置。
 ```
 docker save -o 压缩包名.tar 镜像名
 ```
 
 3. 镜像恢复：
+备份及恢复（导出导入）的镜像都在宿主机执行 docker 命令所在位置。
 ```
 docker load -i 压缩包名.tar
 ```
