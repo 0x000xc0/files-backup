@@ -1,5 +1,5 @@
 ---
-title: Docker 学习笔记
+title: Docker 入门学习笔记
 date: 2018-10-23 18:06:15
 tags: 软件工程
 ---
@@ -185,3 +185,9 @@ docker run -p 3306:3306 --name [mymysql] -v [$PWD/conf:/etc/mysql/conf.d] -v [$P
 -v $PWD/data:/var/lib/mysql ：将主机当前目录下的data目录挂载到容器的 /var/lib/mysql 。
 -e MYSQL_ROOT_PASSWORD=123456：初始化 root 用户的密码。
 ```
+
+# 五 补充
+> Dockerfile 构建：[参考博文](https://blog.csdn.net/afandaafandaafanda/article/details/81937466)
+
+团队采用两个 Dockerfile，一个负责开发环境的镜像构建，一个负责生产环境的镜像构建。
+开发镜像包含了代码构建所需要的环境，镜像大小自然比较大，生产镜像仅包含应用运行所需要的内容，是很精简的体积很小的镜像。
