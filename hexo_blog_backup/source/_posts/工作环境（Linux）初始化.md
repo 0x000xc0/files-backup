@@ -1,14 +1,9 @@
 ---
-title: 双系统使用和工作环境（Linux）初始化
+title: 工作环境（Linux）初始化
 date: 2018-10-14 20:38:30
 tags: 记录小结
 ---
-# 一 双系统使用
-双系统工作环境（Windows 10 与 Deepin Linux）；Windows 10 环境为主，Deepin Linux 环境为辅。
-
-Deepin Linux 使用 Win 下磁盘存储的目录及文件（Deepin Linux 单工作环境则把存储的目录及文件放在 /home/user 的 Document 文件夹下）。
-
-# 二 工作环境（Linux）初始化
+# 一 工作环境（Linux）初始化
 ## 1 需要安装的最基本软件
 - 蓝牙相关：blueZ、blueman
 - openssh-server
@@ -16,7 +11,8 @@ Deepin Linux 使用 Win 下磁盘存储的目录及文件（Deepin Linux 单工�
 
 ## 2 需要的最基本配置
 - 新安装的系统没给 root 设置密码会切换用户失败。`sudo passwd root` 给 root 设置密码，后 `su` 提升权限为 root 用户（`su - root` 切换为全新的 root 用户）。
-Ubuntu 下启用 root 登陆，`sudo gedit /usr/share/lightdm/lightdm.conf.d/50-ubuntu.conf`,添加 `greeter-show-manual-login=true` 保存；然后 `gedit /root/.profile` 将文件末尾一句 mesg n 更改为
+
+- Ubuntu 下启用 root 登陆，`sudo gedit /usr/share/lightdm/lightdm.conf.d/50-ubuntu.conf`,添加 `greeter-show-manual-login=true` 保存；然后 `gedit /root/.profile` 将文件末尾一句 mesg n 更改为
 `tty -s && mesg n`。
 
 - 更改 Grub 默认启动顺序，找到 Grub 配置文件（位置可能不同 Ubuntu 在 `/etc/default/grub`，CentOS 在 `/etc/grub.conf`）；GRUB_DEFAULT=0 设置（大同小异） ，如在选择界面查看为 N，则改为 N-1；设置完 `update-grub` 重新生成启动配置文件。
@@ -74,3 +70,8 @@ pair [yourDeviceMAC] # 记得输入完授权码后回车。
 共享自己的文件夹:
 安装 samba：安装；配置共享文件夹（注意服务和操作系统对文件夹权限问题）；可以添加用户后设置对应的 samba 用户授权（用户需密码才能访问），注意禁止其登陆操作系统只使用 samba 服务。
 ```
+
+# 二 补充：双系统使用
+双系统工作环境（Windows 10 与 Deepin Linux）；Windows 10 环境为主，Deepin Linux 环境为辅。
+
+Deepin Linux 使用 Win 下磁盘存储的目录及文件（Deepin Linux 单工作环境则把存储的目录及文件放在 /home/user 的 Document 文件夹下）。
