@@ -19,6 +19,7 @@ Git 为分布式，不需要中央服务器，每个人本地都有一份完整�
 1. SVN 即 Subversion（分为服务端、客户端）。
 Windows 平台：服务端软件有 VisualSVN server，客户端软件有 TortoiseSVN。
 Linux 平台：服务端软件有 CollabNet Subversion Edge（GUI），客户端软件有 RapidSVN。
+也可以用 Apache Subversion 服务端客户端打包 [下载地址](https://subversion.apache.org/packages.html)
 
 2. 服务端与客户端使用流程：
 - 服务端使用流程：建立仓库；添加用户；建立组并添加用户（可同时设置权限）。
