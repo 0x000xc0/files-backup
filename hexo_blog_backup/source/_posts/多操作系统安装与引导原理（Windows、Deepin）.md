@@ -93,15 +93,14 @@ sudo apt-get update
 3. Grub 中添加操作系统启动项：
 [自定义菜单项 menuentry 构建参考](https://wenku.baidu.com/view/fcaf77bf960590c69ec37680.html)
 多操作系统添加启动项前，可先备份 grub.cfg，要想办法搞清楚每个系统安装位置，可在 Linux 下查看；UUID 查看命令 `sudo blkid`。
-
 可编辑的 Grub 2 配置文件主要包括 /etc/default/grub、和 /etc/grub.d/ 下的各文件。
 自定义菜单项一般存放在 /etc/grub.d/40_custom 文件中。编辑完运行 `update-grub` 命令。 
 
 - 构建 menuentry 中的主要项:
 ```
 menuentry "显示的操作系统名" {
-	insmod part_msdos
-	insmod ntfs            # 文件系统类型。
+    insmod part_msdos
+    insmod ntfs            # 文件系统类型。
     set root='hd0,msdos1'  # hd0 为第几块硬盘，1 为第几个分区。
     search --no-floppy --fs-uuid --set=root 7E58BCF758BCAF71   # 磁盘用 UUID 来标记，更精确。
     chainloader +1
