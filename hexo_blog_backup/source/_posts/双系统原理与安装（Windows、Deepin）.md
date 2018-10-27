@@ -3,7 +3,7 @@ title: 双系统原理与安装（Windows、Deepin）
 date: 2018-10-14 03:53:00
 tags: 记录小结
 ---
-# 双系统原理
+# 一 双系统原理
 [参考资料](https://wenku.baidu.com/view/a153663583c4bb4cf6ecd101.html?from=search)
 
 1. 操作系统启动过程（双系统）：先执行 BIOS 程序去找硬盘；执行硬盘第一个扇区中 MBR 中的引导代码（boot loader 开机管理程序，其功能直接载入操作系统，提供不同开机选项，转交其他 loader）；MBR 中的 引导代码去执行用来引导 Linux 的 boot loader。
@@ -23,7 +23,7 @@ GPT：一个较新的分区机制，解决了 MBR 很多缺点。向后兼容 MB
 / 根分区、swap 交换分区。
 可以给根分区加密保证物理安全，会丧失性能；可以给引导加密码（可进入单用户模式清除 root 密码）。
 
-# Windows 与 Deepin 双系统安装
+# 二 Windows 与 Deepin 双系统安装
 > Deepin 官方文档：[文档](https://wiki.deepin.org/wiki/%E5%8E%9F%E7%94%9F%E5%AE%89%E8%A3%85#.E5.A4.9A.E7.A1.AC.E7.9B.98.E6.97.B6.E5.AE.89.E8.A3.85_deepin_.E5.87.BA.E7.8E.B0.E7.9A.84.E6.97.A0.E6.B3.95.E5.BC.95.E5.AF.BC.E7.9A.84.E9.97.AE.E9.A2.98)
 安装教程 1 不需要设置引导：[文档](https://jingyan.baidu.com/article/17bd8e524527a985ab2bb82e.html)
 安装教程 2 需设置引导：[文档](https://bbs.deepin.org/forum.php?mod=viewthread&tid=158334&extra=)
@@ -53,3 +53,11 @@ GPT：一个较新的分区机制，解决了 MBR 很多缺点。向后兼容 MB
 - 可改用第二种方法不用 U 盘安装，[教程文档](https://bbs.deepin.org/forum.php?mod=viewthread&tid=158334&extra=)。
 
 5. 总结：用 U 盘安装，下次不想使用 Linux 前，用 PE 恢复 MBR 引导或用 EasyUEFI 删除其启动项（前 BIOS+MBR，后 UEFI+GPT 情况），然后进 Windows 删除其分区。参考：[Windows 下卸载](https://wiki.deepin.org/wiki/%E7%B3%BB%E7%BB%9F%E5%8D%B8%E8%BD%BD)
+
+# 三 双系统引导修复问题
+> [参考博文](https://blog.csdn.net/s_gy_zetrov/article/details/51958484)
+
+用 PE 修复 MBR（Windows 引导问题）；
+用 Linux 的 U 盘挂载上 Linux 所在分区，安装 Grub；
+先修复 Windows，后配置 Grub 中的 Windows 引导。
+（无引导问题的不做操作）。
