@@ -90,7 +90,32 @@ grub2-install --root-directory=/mnt/temp /dev/sda
 sudo apt-get update
 ```
 
-3. Grub 中添加操作系统启动项：
+3. 使用 grub rescue 模式来重装 Grub 恢复引导：
+```
+# 查看各分区文件系统类型，确定哪个是 Deepin 系统安装位置，文件系统为 ext。
+ls
+ls (hdx,msdosy)    # x，y 为数字，参见 ls 命令后显示的分区情况。
+
+# 如果之前安装 Linux 时没有分 /boot 分区：
+ls (hdx,msdosy)/boot/grub
+set root=(hdx,msdosy)
+set prefix=(hdx,msdosy)/boot/grub
+insmod normal
+normal
+
+# 如果之前安装 Linux 时分出了 /boot 分区：
+ls (hdx,msdosy)/grub
+set root=(hdx,msdosy)
+set prefix=(hdx,msdosy)/grub
+insmod normal
+normal
+
+# 回车进入 Linux，命令行输入命令：
+sudo update-grub
+sudo grub-install /dev/sda
+```
+
+4. Grub 中添加操作系统启动项：
 [自定义菜单项 menuentry 构建参考](https://wenku.baidu.com/view/fcaf77bf960590c69ec37680.html)
 多操作系统添加启动项前，可先备份 grub.cfg，要想办法搞清楚每个系统安装位置，可在 Linux 下查看；UUID 查看命令 `sudo blkid`。
 可编辑的 Grub 2 配置文件主要包括 /etc/default/grub、和 /etc/grub.d/ 下的各文件。
@@ -154,5 +179,5 @@ BIOS + MBR 模式。
 
 - Windows 下安装第二个操作系统 Linux 时，会选择 Grub 安装位置。往 MBR 上装，往 Linux 系统所在的分区的第一个扇区里装。一般安装在 MBR。
 
-- MBR 是各个系统的必争之地，尤其是 Windows 一旦重装, MBR 记录就被覆盖, GRUB 也会不见。先后安装两个 Linux，其 Grub 都往 MBR 上装，留下的只会是后来者。需要进入最后安装的 Linux，修改配置 Grub 文件，添加前面安装的操作系统的启动项。
+- MBR 是各个系统的必争之地，尤其是 Windows 一旦重装, MBR 记录就被覆盖, GRUB 也会不见。先后安装两个 Linux，其 Grub 都往 MBR 上装，留下的只会是后来者。Grub 会自动识别配置引导。
 
