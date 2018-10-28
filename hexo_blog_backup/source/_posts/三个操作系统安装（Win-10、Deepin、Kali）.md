@@ -51,3 +51,24 @@ sudo grub-install /dev/sda
 ![空闲分区状态](图6.PNG)
 
 - 重启用 U 盘安装第二个 Linux 操作系统 Kali，完成（Grub 会自动识别并完成引导的配置）。
+
+# 三 重新安装 Grub
+由于先安装的 Deepin，后安装的 Kali，导致后者的 Grub 覆盖了前者的，现在恢复用 Deepin 的 Grub 来引导（更加美观）。
+
+- 先进入 Deepin，终端查看分区情况，我的 Kali 装在 /dev/sda8。
+
+- 安装 Grub：`grub2-install`。
+
+- 在 /boot/grub/grub.cfg 中添加启动项，如图：
+```
+menuentry "显示的操作系统名" {
+    insmod part_msdos
+    insmod ntfs            # 文件系统类型。
+    set root='hd0,msdos1'  # hd0 为第几块硬盘，1 为第几个分区。
+    search --no-floppy --fs-uuid --set=root 7E58BCF758BCAF71   # 磁盘用 UUID 来标记，更精确。
+    chainloader +1
+}
+```
+![添加启动项](图7.PNG)
+
+- 更新 Grub 配置：`update-grub`，重启完成。
