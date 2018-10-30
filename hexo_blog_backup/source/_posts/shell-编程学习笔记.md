@@ -57,7 +57,7 @@ echo $name
 set
 
 增加变量值：
-PATH="$PATH":值
+PATH="$PATH:值"
 
 # 系统环境变量使用
 curTime=$(date "+%H%M%S")   #将时间  时 分 秒 赋给变量 curTime，注意 date 和 双引号之间有空格。
