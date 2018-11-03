@@ -7,6 +7,9 @@ tags: 软件工程
 [Source Insight 导入项目](https://jingyan.baidu.com/article/db55b609a8c6104ba30a2f88.html)
 [Source Insight 入门教程](https://blog.csdn.net/it1988888/article/details/8026930)
 [Source Insight 4.0 的基本使用方法](https://blog.csdn.net/Cheatscat/article/details/79709616)
+[C 语言中 .h 和 .c 文件解析](https://www.cnblogs.com/laojie4321/archive/2012/03/30/2425015.html)
+[C 程序怎样组织更有结构性](https://blog.csdn.net/heybeaman/article/details/80227111)
+[C 语言头文件组织与包含原则](https://www.cnblogs.com/clover-toeic/archive/2014/05/14/3728026.html)
 
 1. 分析源代码及其结构，下载安装使用源代码静态分析工具 Source Insight。
 
@@ -37,11 +40,20 @@ tags: 软件工程
     └── os          主要是对各种不同体系统结构所提供的系统函数的封装，对外提供统一的系统调用接口
 ```
 
-4. Source Insight 添加其它功能窗口与工作界面：
+4. 注：C 的文件组织
+- 一般都在头件中进行宏、类型（typedef、struct、union、menu）、数据和函数的声明；而在 C 文件中去进行变量定义，函数实现。或头文件只向外提供接口。
+- 需要注意的是 C++ 与 C 语言的多文件并不相同，c++ 头文件中一般放的是类的定义。
+- 避免重复定义，开头加上：双下划线多用于警告提示。
+```
+#ifndef _NGINX_H_INCLUDED_
+#define _NGINX_H_INCLUDED_
+```
+
+5. Source Insight 添加其它功能窗口与工作界面：
 ![添加其它功能窗口](图1.PNG)
 ![工作界面](图2.PNG)
 
-5. 功能窗口简介：
+6. 功能窗口简介：
 从左到右，从上到下的顺序（3 + 4 个）。
 
 - 符号窗口：
