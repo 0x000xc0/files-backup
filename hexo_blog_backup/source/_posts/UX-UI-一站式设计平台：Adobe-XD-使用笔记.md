@@ -23,7 +23,7 @@ Adobe XD：一站式 UX/UI（用户体验/用户界面）设计平台。
 - 配色网站：https://colorhunt.co/
 - 推荐配色：https://coolors.co/app/
 - 背景生成：https://coolbackgrounds.io/
-- 图片库：
+- 图片库：https://www.pexels.com/
 
 # 三 使用
 1. 基本使用：
