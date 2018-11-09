@@ -9,6 +9,6 @@ tags: 知识图谱与方法论
 
 2. Linux 相关知识。
 
-3. Python 基础语法、。。。。
+3. Python 语言学习。[参考博文](https://www.cnblogs.com/linhaifeng/p/7278389.html)
 
 4. Git 使用或 SVN 版本控制使用。

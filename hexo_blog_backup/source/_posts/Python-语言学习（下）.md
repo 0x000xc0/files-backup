@@ -54,13 +54,21 @@ for char in str
 根据 ASCII 比较。
 
 6. 字符串格式化：
-- `str.format(值)` ，如 `print("hello {} world").format(you)` ，会用 you 替换掉 {}，输出为 `hello you world` 。
+- `str.format(值)` ，如 `print("hello {} world".format(you))` ，会用 you 替换掉 {}，输出为 `hello you world` 。
 
 在 {} 内可加格式控制内容：
 ```
 print("PI is {:.4f}".format(math.pi)) #输出为四位小数。
-{:9.4f} #表示为占九个字符，小数部分四位。
-{:e} #用科学记数法输出。
+{:9.4f}  # 表示为占九个字符，小数部分四位。
+{:e}  # 用科学记数法输出。
+{数字}  # 用来选定后面的第几个值，相当于索引。
+{key}  # 后面传入的类字典形式的键值 .format("name":"Xioali","age":21) 
+format 值直接传字典进去在字典前加两个星号；直接传元组进去在元组前加一个星号。（字典或元组类型的对象）
+```
+
+- `str %(值1, 值2)`，如 `msg = "%d like playing %d" %(5, "game")`
+```
+msg = "i am %(key1)s are %(key2)d" %{"key1":"xiaoli", "key2":21}
 ```
 
 7. 正则表达式：
