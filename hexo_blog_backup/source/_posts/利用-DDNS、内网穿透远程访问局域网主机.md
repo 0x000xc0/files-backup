@@ -7,7 +7,7 @@ tags: 记录小结
 [问题参考 DDNS 为什么不能映射内网地址呢](http://koolshare.cn/forum.php?mod=viewthread&tid=136243&highlight=ddns)
 [华硕路由器使用 DDNS](https://jingyan.baidu.com/article/fc07f98944a83c12ffe51985.html)
 [DDNS 简单教程](https://new.qq.com/omn/20181009/20181009A22BUS.html?pc)
-[群晖 NA 的 DDNS 设置方法](http://www.33lc.com/article/6576.html)
+[群晖的 DDNS 设置方法](http://www.33lc.com/article/6576.html)
 [几个内网穿透，内网网站穿透，内网端口映射到公网的服务推荐](https://www.v2ex.com/t/268495)
 [四步实现内网穿透](https://www.jianshu.com/p/b60795a3c9fc)
 [一分钟实现内网穿透（ngrok 服务器搭建）](https://blog.csdn.net/zhangguo5/article/details/77848658?utm_source=5ibc.net&utm_medium=referral)
