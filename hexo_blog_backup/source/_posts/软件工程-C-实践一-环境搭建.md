@@ -5,6 +5,7 @@ tags: 软件工程
 ---
 > 此笔记的公开课程为中国科学技术大学的《软件工程（C 编码实战）》
 
+# 开发环境一
 1. 准备：VM VirtualBox，及安装好的 Ubuntu 操作系统。
 
 - 新安装的系统没给 root 设置密码会切换用户失败。`sudo passwd root` 给 root 设置密码，后 `su - root` 切换为 root 用户。
@@ -39,3 +40,18 @@ tags: 软件工程
 - 执行该文件 `./hello`（点代表当前目录。）；
 - 打包 `tar -cvzf mywork.tar.gz ./hello` ;
 - 解压 `tar -xvzf mywork.tar.gz` 。
+
+# 开发环境二
+使用 Windows 下的 Eclipse CDT 集成开发环境。
+
+- 在 debug 时遇到 `eclipse No source available for "main() ...` ，先清除，重新构建。
+![debug 时遇到问题](图2.PNG)
+
+- printf 打印函数，在 console 窗口中并没有打印出信息来，停止后才会有输出。在 debug 调试时， eclipse 将输出的内容存放到了输出缓存区中，没有及时的输出到控制台。等到调试结束时，再将所有的信息一并打印出来。解决方法：每个 printf 函数之后加上 `fflush(stdout);`，或在 main 函数开始设置缓冲类型 `setvbuf(stdout,NULL,_IONBF,0);`。[参考博文](https://blog.csdn.net/w_virgil/article/details/83088228)。
+
+- 默认生成的是 debug 版本，怎样生成 release 版本或怎样重新生成新的 release 版本：Run -> Runconfiguration，设置 build configuration。
+![build configuration](图3.PNG)
+
+- debug 模式下不等待输入问题解决：在 Run -> Debug Configurations -> Debugger 中勾选 use externak console for inferior。在 debug 的时候会弹出一个新的 cmd 窗口供用户输入并显示输出。[参考博文](https://blog.csdn.net/li1914309758/article/details/81487870)
+
+- 代码提示（默认是关闭的）：在 Java 中，Eclipse 可以通过修改增加触发点达到所有字母自动触发，CDT 没有。[参考](https://www.zhihu.com/question/24778450)。
