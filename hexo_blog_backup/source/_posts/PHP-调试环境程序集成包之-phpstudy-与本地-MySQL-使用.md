@@ -23,3 +23,6 @@ tags: 记录小结
 4. 如果之前安装了 MySQL5.7，后又安装了 phpstudy，但是不想用以前的 MySQL5.7。
 - 这时需将原来的数据转移到 phpstudy 下的 MySQL 中。`C:\ProgramData\MySQL\MySQL Server 5.7\Data` 中的文件复制到 `D:\phpStudy\PHPTutorial\MySQL\data`。
 - 如果因为 MySQL 版本问题导致无法正常使用的话，直接将 MySQL 程序换掉。`C:\Program Files\MySQL\MySQL Server 5.7` 中的文件复制到 `D:\phpStudy\PHPTutorial\MySQL`，注意保留 data 文件夹，phpstudy 中的 MySQL 内文件包含程序本身和 data（数据库中的数据）。
+
+# 三 补充：自己搭建环境
+php + apache + mysql：[参考博文](https://blog.csdn.net/yu422560654/article/details/7275409)。
