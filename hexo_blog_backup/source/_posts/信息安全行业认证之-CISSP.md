@@ -35,6 +35,10 @@ CISSP
 - 安全运营 (基本概念、调查、事件管理、灾难恢复)
 - 软件开发安全 (理解、应用、和实施软件安全) 
 
-2. 学习资料：[参考](http://shenghuo.lshou.com/c12712/t5dd661cb9cdb.html)
+2. 学习资料：
+- [参考链接](http://shenghuo.lshou.com/c12712/t5dd661cb9cdb.html)
 推荐：CISSP All-In-One Exam Guide，CISSP CBK。
 ![学习资料](图1.PNG)
+
+- [转战信息安全，我的CISSP备考分享](https://zhuanlan.zhihu.com/p/33198492)
+推荐：Cybrary 的 CISSP 教学视频，Google/youtube 相关视频，官方的 CISSP APP（study+exam），CISSP 11小时，官方教材。
