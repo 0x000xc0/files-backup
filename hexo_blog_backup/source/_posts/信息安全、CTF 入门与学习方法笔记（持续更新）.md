@@ -63,8 +63,12 @@ tags: 知识图谱与方法论
 
 6. 无论怎么提高效率，要成为专家，都需要大量的时间投入。
 
-# 二 信息安全职业方向
+# 二 信息安全职业方向、职业规划
+1. 信息安全职业方向：
 ![信息安全职业方向](图1.PNG)
+
+2. 信息安全职业规划：
+![信息安全职业规划](图6.PNG)
 
 # 三 知识体系构建
 理论 + 学习目录 + 实践。
@@ -178,6 +182,8 @@ tags: 知识图谱与方法论
 - Web 安全微专业（进阶）[链接](https://mooc.study.163.com/smartSpec/detail/1001386007.htm?share=1&shareId=9305777)
 
 # 四 安全项目
+- Awesome-Hacking：[链接](https://github.com/Hack-with-Github/Awesome-Hacking)
+- 乌云知识库：[链接](https://github.com/grt1st/wooyun_search)
 - 安全开源项目汇总：[链接](https://www.anquanquan.info/anquankaiyuan.html)
 - OWASP（开放式 Web 应用程序安全项目）：[链接](https://www.owasp.org/index.php/Main_Page)
 - SECTOOLS：[链接](https://sectools.org/)
@@ -232,7 +238,7 @@ tags: 知识图谱与方法论
 - 站长工具，[链接](http://tool.chinaz.com/)
 - 查企业，[天眼查](https://www.tianyancha.com/)、[启信宝](https://www.qixin.com/)
 
-# 六 信息安全咨询与信息、期刊、论坛
+# 六 信息安全咨询与信息、期刊、论坛站点
 信息安全导航站：[安全圈之安全站点](https://www.anquanquan.info/#securesite)
 
 1. 信息安全咨询与信息：
@@ -249,12 +255,13 @@ tags: 知识图谱与方法论
 - 瑞星周报，[链接](http://it.rising.com.cn/bobao/index.html)
 - SecWiki 周刊，[链接](https://www.freebuf.com/author/SecWiki)
 
-3. 相关论坛：
+3. 相关论坛站点：
 - 吾爱破解，[链接](https://www.52pojie.cn/)
 - 看雪论坛，[链接](https://bbs.pediy.com/)
 - 红日攻防实验室，[链接](http://sec-redclub.com/index.php)
 - i 春秋，[链接](https://www.ichunqiu.com/)
 - 暗安全技术小组，[链接](https://forum.cnsec.org/)
+- 安全牛，[链接](https://www.aqniu.com/)
 
 # 七 安全会议与会议资料
 - BlackHat
@@ -295,3 +302,12 @@ tags: 知识图谱与方法论
 - sobug，[链接](https://sobug.com/)
 - CNVD，[链接](http://zc.cnvd.org.cn/)
 - bugcrowd，[链接](https://www.bugcrowd.com/)
+
+# 九 一些安全企业、行业全景图
+> 参考：[安全牛，网络安全行业全景图（2018年7月）发布](https://www.aqniu.com/industry/36011.html)
+
+1. 一些安全企业：
+![一些安全企业](图4.PNG)
+
+2. 安全行业全景图：
+![安全行业全景图](图5.PNG)

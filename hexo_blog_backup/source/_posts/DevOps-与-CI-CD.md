@@ -37,7 +37,12 @@ DevOps 即更好的优化开发、测试、运维的流程；开发运维一体�
 - 日志管理：Logstash、CollectD、StatsD
 - 监控，警告&分析：Nagios、Ganglia、Sensu、zabbix、ICINGA、Graphite、Kibana
 
-# 三 打造自己的 DevOps
+# 三 DevOps 知识图谱
+> 参见 GitHub 项目 developer-roadmap：[链接](https://github.com/kamranahmedse/developer-roadmap)
+
+![DevOps 知识图谱](图3.PNG)
+
+# 四 打造自己的 DevOps
 > [持续集成实践参考](https://www.cnblogs.com/Leo_wl/p/4728745.html)
 [flow.ci + Github + Slack 一步步搭建 Python 自动化持续集成](https://www.jianshu.com/p/67286ee91252)
 [持续部署实践参考](https://zhuanlan.zhihu.com/p/25066056)

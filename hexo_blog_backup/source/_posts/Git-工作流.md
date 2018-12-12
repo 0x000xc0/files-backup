@@ -3,6 +3,8 @@ title: Git 工作流
 date: 2018-06-13 00:43:46
 tags: 版本控制
 ---
+> Git 使用过程中会遇到的所有问题，其解决方案见 GitHub 项目 git-flight-rules：[链接](https://github.com/k88hudson/git-flight-rules)
+
 # 一 两种开发合作模式
 参考：[参考问题回答](https://segmentfault.com/q/1010000004362882/a-1020000004415897)
 
