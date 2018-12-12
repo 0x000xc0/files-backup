@@ -68,7 +68,10 @@ tags: 知识图谱与方法论
 ![信息安全职业方向](图1.PNG)
 
 2. 信息安全职业规划：
-![信息安全职业规划](图6.PNG)
+![信息安全职业规划](图1-1.PNG)
+
+3. 补充，Hacker 学习发展流程图：
+![Hacker 学习发展流程图](图1-2.PNG)
 
 # 三 知识体系构建
 理论 + 学习目录 + 实践。
@@ -166,20 +169,26 @@ tags: 知识图谱与方法论
 
 7. 补充：网络安全法解读，[视频链接](https://www.ichunqiu.com/course/57703)
 
-## 4 补充：一些学习网站、资料汇总及课程
+## 4 一些学习网站、资料汇总及课程
 - 学习网站之 i 春秋，[链接](https://www.ichunqiu.com/)
 - 学习网站之安全牛课堂，[链接](https://edu.aqniu.com/)
 - 学习网站之中国大学 MOOC，[链接](https://www.icourse163.org/)
 - 学习网站之网易云课堂，[链接](https://study.163.com/)
 - 学习网站之慕课网，[链接](https://www.imooc.com/)
 - 学习网站之 PHP 中文网，[链接](http://www.php.cn/)
-- 安全资料汇总之 CTF 学习资源：[链接](https://ctf-wiki.github.io/ctf-wiki/introduction/resources/)
+- 安全资料汇总之 Web 安全相关的技术点，[链接](https://github.com/ngalongc/bug-bounty-reference)
+- 安全资料汇总之经典的挖洞过程，[链接](https://pentester.land/list-of-bug-bounty-writeups.html)
+- 安全资料汇总之 CTF 学习资源，[链接](https://ctf-wiki.github.io/ctf-wiki/introduction/resources/)
+- 安全资料汇总之 Payloads and bypasses for Web Application Security，[链接](https://github.com/swisskyrepo/PayloadsAllTheThings)
 - 安全资料汇总之红日攻防，[链接](http://sec-redclub.com/580.html)
 - 安全资料汇总之信息安全知识库，[链接](http://vipread.com/index)
 - 大学计算机专业课程体系，[链接](https://study.163.com/curricula/cs.htm)
 - Web 安全微专业（前置课程）[链接](https://study.163.com/course/introduction.htm?courseId=1003521035#/courseDetail?tab=1)
 - Web 安全微专业（基础）[链接](https://mooc.study.163.com/smartSpec/detail/1001227001.htm?share=1&shareId=9305777)
 - Web 安全微专业（进阶）[链接](https://mooc.study.163.com/smartSpec/detail/1001386007.htm?share=1&shareId=9305777)
+
+## 5 常用方法技能
+- CVE 申请报告的编写样例：[Report(CVE-2018-11396)](https://bugzilla.gnome.org/show_bug.cgi?id=795740)
 
 # 四 安全项目
 - Awesome-Hacking：[链接](https://github.com/Hack-with-Github/Awesome-Hacking)
@@ -241,7 +250,7 @@ tags: 知识图谱与方法论
 # 六 信息安全咨询与信息、期刊、论坛站点
 信息安全导航站：[安全圈之安全站点](https://www.anquanquan.info/#securesite)
 
-1. 信息安全咨询与信息：
+## 1 信息安全咨询与信息
 - Hacker News，[链接](https://news.ycombinator.com/)
 - FreeBuf，[链接](http://ctf.ssleye.com/)
 - 安全客，[链接](https://www.anquanke.com/)
@@ -249,19 +258,31 @@ tags: 知识图谱与方法论
 - SecWiki，[链接](https://www.sec-wiki.com/)
 - 被黑网站统计：[链接](https://www.zone-h.org/archive/published=0?hz=1)
 
-2. 安全期刊：
+## 2 安全期刊
 - 安全客周报与季刊，[链接](https://www.anquanke.com/discovery)
 - 360 研究报告，[链接](http://research.360.cn/report/)
 - 瑞星周报，[链接](http://it.rising.com.cn/bobao/index.html)
 - SecWiki 周刊，[链接](https://www.freebuf.com/author/SecWiki)
 
-3. 相关论坛站点：
+## 3 相关论坛站点
 - 吾爱破解，[链接](https://www.52pojie.cn/)
 - 看雪论坛，[链接](https://bbs.pediy.com/)
 - 红日攻防实验室，[链接](http://sec-redclub.com/index.php)
 - i 春秋，[链接](https://www.ichunqiu.com/)
 - 暗安全技术小组，[链接](https://forum.cnsec.org/)
+- pentester，[链接](https://pentester.land/)
 - 安全牛，[链接](https://www.aqniu.com/)
+
+## 4 推荐关注的组织与个人
+1. YouTube 关注：
+- Black Hat
+- Bug Bounty Public Disclosure      
+- Bugcrowd
+- CernerEng
+- DEFCONConference
+- HackerOne
+- hacktivity
+- OWASP
 
 # 七 安全会议与会议资料
 - BlackHat

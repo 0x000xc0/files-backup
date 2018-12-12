@@ -1,7 +1,7 @@
 ---
 title: 页面制作之 Photoshop 切图
 date: 2018-06-23 20:40:13
-tags: Photoshop
+tags: 设计
 ---
 # 一 什么是切图
 从设计稿中切出图片素材。

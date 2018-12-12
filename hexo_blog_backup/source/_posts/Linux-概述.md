@@ -7,11 +7,15 @@ tags: Linux
 
 # 一 Linux 概述
 1. Linux 主要发行版本，分支：
-Debian、Red Hat、Slackware。
-![Linux 主要发行版本，分支](图1.PNG)
+- Debian、Red Hat、Slackware。
+![Linux 主要发行版本，分支 1](图1.PNG)
+
+- 补充，类 UNIX 操作系统分支，发展：
+![Linux 主要发行版本，分支 2](图1-1.PNG)
 
 2. Linux 操作系统构成：
-![Linux 操作系统构成](图2.PNG)
+![Linux 操作系统构成之内部](图2.PNG)
+![Linux 操作系统构成之内核](图2-1.PNG)
 
 3. 不同 Linux 发行版本间差异：
 - 命令分为 Bash 命令和应用程序命令。Bash 作为许多 Linux 发行版的默认 Shell，其命令相同；不同的 Linux 版本所用的应用程序不同，其命令也不同。
