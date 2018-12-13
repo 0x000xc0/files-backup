@@ -184,10 +184,10 @@ tags: 知识图谱与方法论
 ## 5 常用方法技能
 - CVE 申请报告的编写样例：[Report(CVE-2018-11396)](https://bugzilla.gnome.org/show_bug.cgi?id=795740)
 
-# 四 安全项目与资料
+# 四 安全资料与项目
 - Awesome-Hacking：[链接](https://github.com/Hack-with-Github/Awesome-Hacking)
 - 安全开源项目汇总：[链接](https://www.anquanquan.info/anquankaiyuan.html)
-- OWASP（开放式 Web 应用程序安全项目）：[链接](https://www.owasp.org/index.php/Main_Page)
+- OWASP（开放式 Web 应用程序安全项目）：[链接](https://www.owasp.org/index.php/Main_Page)，[OWASP 中国，链接](http://www.owasp.org.cn/)
 - SECTOOLS：[链接](https://sectools.org/)
 - 乌云知识库：[链接](https://github.com/grt1st/wooyun_search)
 - All conferences and series，[链接](https://media.ccc.de/)
@@ -196,9 +196,13 @@ tags: 知识图谱与方法论
 - Web 安全相关的技术点，[链接](https://github.com/ngalongc/bug-bounty-reference)
 - 经典的挖洞过程，[链接](https://pentester.land/list-of-bug-bounty-writeups.html)
 - CTF 学习资源，[链接](https://ctf-wiki.github.io/ctf-wiki/introduction/resources/)
+- pwnable 小游戏，[链接](http://pwnable.kr/play.php)
 - Payloads and bypasses for Web Application Security，[链接](https://github.com/swisskyrepo/PayloadsAllTheThings)
 - 红日攻防资料汇总，[链接](http://sec-redclub.com/580.html)
 - 信息安全知识库，[链接](http://vipread.com/index)
+- routerpwn，[链接](http://routerpwn.com/)
+- Embedded Device Hacking，[链接](http://www.devttys0.com/)
+- rootkit analytics，[链接](http://www.rootkitanalytics.com/)
 
 # 五 安全工具
 信息安全导航站：[安全圈之安全工具](https://www.anquanquan.info/#tools)
