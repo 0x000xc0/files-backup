@@ -169,33 +169,36 @@ tags: 知识图谱与方法论
 
 7. 补充：网络安全法解读，[视频链接](https://www.ichunqiu.com/course/57703)
 
-## 4 一些学习网站、资料汇总及课程
+## 4 一些学习网站、课程
 - 学习网站之 i 春秋，[链接](https://www.ichunqiu.com/)
 - 学习网站之安全牛课堂，[链接](https://edu.aqniu.com/)
 - 学习网站之中国大学 MOOC，[链接](https://www.icourse163.org/)
 - 学习网站之网易云课堂，[链接](https://study.163.com/)
 - 学习网站之慕课网，[链接](https://www.imooc.com/)
 - 学习网站之 PHP 中文网，[链接](http://www.php.cn/)
-- 安全资料汇总之 Web 安全相关的技术点，[链接](https://github.com/ngalongc/bug-bounty-reference)
-- 安全资料汇总之经典的挖洞过程，[链接](https://pentester.land/list-of-bug-bounty-writeups.html)
-- 安全资料汇总之 CTF 学习资源，[链接](https://ctf-wiki.github.io/ctf-wiki/introduction/resources/)
-- 安全资料汇总之 Payloads and bypasses for Web Application Security，[链接](https://github.com/swisskyrepo/PayloadsAllTheThings)
-- 安全资料汇总之红日攻防，[链接](http://sec-redclub.com/580.html)
-- 安全资料汇总之信息安全知识库，[链接](http://vipread.com/index)
-- 大学计算机专业课程体系，[链接](https://study.163.com/curricula/cs.htm)
-- Web 安全微专业（前置课程）[链接](https://study.163.com/course/introduction.htm?courseId=1003521035#/courseDetail?tab=1)
-- Web 安全微专业（基础）[链接](https://mooc.study.163.com/smartSpec/detail/1001227001.htm?share=1&shareId=9305777)
-- Web 安全微专业（进阶）[链接](https://mooc.study.163.com/smartSpec/detail/1001386007.htm?share=1&shareId=9305777)
+- 一些课程之大学计算机专业课程体系，[链接](https://study.163.com/curricula/cs.htm)
+- 一些课程之 Web 安全微专业（前置课程）[链接](https://study.163.com/course/introduction.htm?courseId=1003521035#/courseDetail?tab=1)
+- 一些课程之 Web 安全微专业（基础）[链接](https://mooc.study.163.com/smartSpec/detail/1001227001.htm?share=1&shareId=9305777)
+- 一些课程之 Web 安全微专业（进阶）[链接](https://mooc.study.163.com/smartSpec/detail/1001386007.htm?share=1&shareId=9305777)
 
 ## 5 常用方法技能
 - CVE 申请报告的编写样例：[Report(CVE-2018-11396)](https://bugzilla.gnome.org/show_bug.cgi?id=795740)
 
-# 四 安全项目
+# 四 安全项目与资料
 - Awesome-Hacking：[链接](https://github.com/Hack-with-Github/Awesome-Hacking)
-- 乌云知识库：[链接](https://github.com/grt1st/wooyun_search)
 - 安全开源项目汇总：[链接](https://www.anquanquan.info/anquankaiyuan.html)
 - OWASP（开放式 Web 应用程序安全项目）：[链接](https://www.owasp.org/index.php/Main_Page)
 - SECTOOLS：[链接](https://sectools.org/)
+- 乌云知识库：[链接](https://github.com/grt1st/wooyun_search)
+- All conferences and series，[链接](https://media.ccc.de/)
+- kitploit 黑客工具介绍，[链接](https://www.kitploit.com/)
+- connect-trojan（Remote access trojan）：[链接](http://www.connect-trojan.net/)
+- Web 安全相关的技术点，[链接](https://github.com/ngalongc/bug-bounty-reference)
+- 经典的挖洞过程，[链接](https://pentester.land/list-of-bug-bounty-writeups.html)
+- CTF 学习资源，[链接](https://ctf-wiki.github.io/ctf-wiki/introduction/resources/)
+- Payloads and bypasses for Web Application Security，[链接](https://github.com/swisskyrepo/PayloadsAllTheThings)
+- 红日攻防资料汇总，[链接](http://sec-redclub.com/580.html)
+- 信息安全知识库，[链接](http://vipread.com/index)
 
 # 五 安全工具
 信息安全导航站：[安全圈之安全工具](https://www.anquanquan.info/#tools)
@@ -244,6 +247,9 @@ tags: 知识图谱与方法论
 - 谛听，[链接](http://www.ditecting.com/)
 
 ## 6 其他工具
+- 漏洞搜索引擎 sploitus，[链接](https://sploitus.com/)
+- 1/nday & Exploit（Metasploit 漏洞利用），[链接](https://github.com/rapid7/metasploit-framework/pulls)
+- Public Database Directory - Public DB Host，[链接](https://www.databases.today/index.php)
 - 站长工具，[链接](http://tool.chinaz.com/)
 - 查企业，[天眼查](https://www.tianyancha.com/)、[启信宝](https://www.qixin.com/)
 
@@ -270,6 +276,8 @@ tags: 知识图谱与方法论
 - 红日攻防实验室，[链接](http://sec-redclub.com/index.php)
 - i 春秋，[链接](https://www.ichunqiu.com/)
 - 暗安全技术小组，[链接](https://forum.cnsec.org/)
+- Offensive Community 论坛，[链接](http://offensivecommunity.net/)
+- cracking 论坛，[链接](https://cracking.org/)
 - pentester，[链接](https://pentester.land/)
 - 安全牛，[链接](https://www.aqniu.com/)
 
