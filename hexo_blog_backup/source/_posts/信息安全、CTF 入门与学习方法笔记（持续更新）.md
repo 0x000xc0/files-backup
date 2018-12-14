@@ -109,7 +109,45 @@ tags: 知识图谱与方法论
 - 信息安全思维导图集合：[来自 SecWiki 的 GitHub 分享](https://github.com/SecWiki/sec-chart)
 - 安全类思维导图 by phith0n：[链接](https://github.com/phith0n/Mind-Map)
 
-## 2 学习目录 Kali Linux
+## 2 信息安全专业课程体系
+> 来自实验吧：[链接](http://www.usaas.net/saas/onlinecourse)
+
+1. 计算机基础课：
+- 《计算机基础》是学生对计算机有初步认知的课程。
+- 《C/java语言程序设计》是学生对编程的初步认知，有助于后续理解计算机原理及程序漏洞成因。
+- 《信息安全数学基础》会重要介绍与信息安全相关的数据基础，有助于对于后续理解密码学算法及应用。
+- 《信息安全导论》会初步介绍信息安全的体系架构，是学生对信息安全的技术和管理体系有初步认知。 
+
+2. 信息安全专业基础课：
+- 《网络协议分析》
+- 《TCP/IP路由与交换技术》
+- 《微机原理与汇编语言》
+- 《数据库原理与应用》
+- 《Python编程技术》
+- 《操作系统原理》
+- 《Linux系统与服务器管理》
+- 《php+mysql web程序开发》
+- 《信息安全法律法规》
+
+3. 信息安全核心专业课：
+- 《计算机网络安全》
+- 《web安全》
+- 《渗透测试》
+- 《kali渗透》
+- 《安全网关防护设备原理与配置》
+- 《内网入侵检测系统原理与配置》
+- 《恶意代码原理与分析》
+- 《密码学技术与应用》
+- 《智能硬件安全》
+- 《逆向工程》
+
+4. 信息安全专业实训课程：
+- 《网络工程项目实训》
+- 《安全系统集成项目实训》
+- 《渗透测试与应急响应项目实训》
+- 《风险评估项目实训》
+
+## 3 学习目录 Kali Linux
 1. Kali Linux 工具分类简介：
 - Information Gathering（信息收集）
 - Vulnerability Analysis（漏洞分析）
@@ -133,7 +171,7 @@ tags: 知识图谱与方法论
 - Kali 渗透测试（大学霸），[链接](http://www.daxueba.net/?page_id=2108)
 - Kali Linux web 渗透测试经典视频，[链接](https://www.bilibili.com/video/av23312845?from=search&seid=1344609958529235591)
 
-## 3 CTF 内容、资料、工具、演练平台
+## 4 CTF 内容、资料、工具、演练平台
 1. CTF 入门教程：
 - 入门 Wiki，[链接](https://ctf-wiki.github.io/ctf-wiki/)
 - CTF 入门视频课程，[链接](https://www.ichunqiu.com/course/53905)
@@ -155,6 +193,7 @@ tags: 知识图谱与方法论
 5. 训练演练、竞赛比赛：
 - Practice CTF List / Permanant CTF List，[链接](http://captf.com/practice-ctf/)
 - i 春秋 CTF 训练：[链接](https://www.ichunqiu.com/battalion)
+- 实验吧 CTF 习题：[链接](http://www.shiyanbar.com/ctf/index)
 - XCTF OJ，[链接](http://oj.xctf.org.cn/)
 - 南京邮电大学 CTF/网络攻防训练平台，[链接](http://ctf.nuptsast.com/)
 - HackingLab 网络信息安全攻防学习平台，[链接](http://hackinglab.cn/)
@@ -169,7 +208,7 @@ tags: 知识图谱与方法论
 
 7. 补充：网络安全法解读，[视频链接](https://www.ichunqiu.com/course/57703)
 
-## 4 一些学习网站、课程
+## 5 一些学习网站、课程
 - 学习网站之 i 春秋，[链接](https://www.ichunqiu.com/)
 - 学习网站之安全牛课堂，[链接](https://edu.aqniu.com/)
 - 学习网站之中国大学 MOOC，[链接](https://www.icourse163.org/)
@@ -181,7 +220,7 @@ tags: 知识图谱与方法论
 - 一些课程之 Web 安全微专业（基础）[链接](https://mooc.study.163.com/smartSpec/detail/1001227001.htm?share=1&shareId=9305777)
 - 一些课程之 Web 安全微专业（进阶）[链接](https://mooc.study.163.com/smartSpec/detail/1001386007.htm?share=1&shareId=9305777)
 
-## 5 常用方法技能
+## 6 常用方法技能
 - CVE 申请报告的编写样例：[Report(CVE-2018-11396)](https://bugzilla.gnome.org/show_bug.cgi?id=795740)
 
 # 四 安全资料与项目
@@ -244,6 +283,7 @@ tags: 知识图谱与方法论
 
 ## 5 Web 大数据
 - 钟馗之眼，[链接](https://www.zoomeye.org)
+- FOFA，[链接](https://fofa.so/)
 - shodan，[链接](https://www.shodan.io/)
 - censys，[链接](https://censys.io/)
 - 傻蛋联网设备搜索系统，[链接](https://www.oshadan.com/)
