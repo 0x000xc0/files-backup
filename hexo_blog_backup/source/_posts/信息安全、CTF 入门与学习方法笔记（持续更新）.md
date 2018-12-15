@@ -147,7 +147,7 @@ tags: 知识图谱与方法论
 - 《渗透测试与应急响应项目实训》
 - 《风险评估项目实训》
 
-## 2 信息安全专业课程补充
+## 3 信息安全专业课程补充
 > 课程：[链接](http://sec.cuc.edu.cn/courses)
 
 1. 系统安全/软件安全系列：
@@ -169,7 +169,7 @@ tags: 知识图谱与方法论
 
 4. 密码学应用于实践
 
-## 3 学习目录 Kali Linux
+## 4 学习目录 Kali Linux
 1. Kali Linux 工具分类简介：
 - Information Gathering（信息收集）
 - Vulnerability Analysis（漏洞分析）
@@ -193,7 +193,7 @@ tags: 知识图谱与方法论
 - Kali 渗透测试（大学霸），[链接](http://www.daxueba.net/?page_id=2108)
 - Kali Linux web 渗透测试经典视频，[链接](https://www.bilibili.com/video/av23312845?from=search&seid=1344609958529235591)
 
-## 4 CTF 内容、资料、工具、演练平台
+## 5 CTF 内容、资料、工具、演练平台
 1. CTF 入门教程：
 - 入门 Wiki，[链接](https://ctf-wiki.github.io/ctf-wiki/)
 - CTF 入门视频课程，[链接](https://www.ichunqiu.com/course/53905)
@@ -230,7 +230,7 @@ tags: 知识图谱与方法论
 
 7. 补充：网络安全法解读，[视频链接](https://www.ichunqiu.com/course/57703)
 
-## 5 一些学习网站、课程
+## 6 一些学习网站、课程
 - 学习网站之 i 春秋，[链接](https://www.ichunqiu.com/)
 - 学习网站之安全牛课堂，[链接](https://edu.aqniu.com/)
 - 学习网站之中国大学 MOOC，[链接](https://www.icourse163.org/)
@@ -242,7 +242,7 @@ tags: 知识图谱与方法论
 - 一些课程之 Web 安全微专业（基础）[链接](https://mooc.study.163.com/smartSpec/detail/1001227001.htm?share=1&shareId=9305777)
 - 一些课程之 Web 安全微专业（进阶）[链接](https://mooc.study.163.com/smartSpec/detail/1001386007.htm?share=1&shareId=9305777)
 
-## 6 常用方法技能
+## 7 常用方法技能
 - CVE 申请报告的编写样例：[Report(CVE-2018-11396)](https://bugzilla.gnome.org/show_bug.cgi?id=795740)
 
 # 四 安全资料与项目

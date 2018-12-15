@@ -119,3 +119,8 @@ ssh git@github.com  //测试是否成功。
 5. 建立本地分支和远程分支的关联，使用 `git branch --set-upstream branch-name origin/branch-name`。
 
 6. 从远程抓取分支，使用 `git pull`，如果有冲突，要先处理冲突。
+
+# 十 Git 常用命令思维导图
+> 参考博客：[链接](https://www.jianshu.com/p/eb8090598762)，此思维导图来自此博客。常用命令也可参考此博客。
+
+![Git 常用命令思维导图](图2.PNG)
