@@ -22,4 +22,8 @@ tags: 记录小结
 1. 如果修改完注册表后，使用系统管理软件清理注册表会导致修改的部分被清理掉。这时想恢复更新，设置中会显示错误代码 0x80070424
 ![错误代码](图2.PNG)
 
-2. 解决方法参考：[链接](https://jingyan.baidu.com/article/3c343ff72eeec70d377963f7.html)
+2. 几个解决方法参考：[链接](https://jingyan.baidu.com/article/3c343ff72eeec70d377963f7.html)
+- 运行 Windows Update 疑难解答程序
+- 下载后运行 Microsoft Fix it
+- 重新启动 Windows Update 服务
+- 下载并安装 Windows Update 代理

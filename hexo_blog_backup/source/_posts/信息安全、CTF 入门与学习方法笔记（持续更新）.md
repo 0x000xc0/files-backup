@@ -194,25 +194,49 @@ tags: 知识图谱与方法论
 - Kali Linux web 渗透测试经典视频，[链接](https://www.bilibili.com/video/av23312845?from=search&seid=1344609958529235591)
 
 ## 5 CTF 内容、资料、工具、演练平台
-1. CTF 入门教程：
-- 入门 Wiki，[链接](https://ctf-wiki.github.io/ctf-wiki/)
-- CTF 入门视频课程，[链接](https://www.ichunqiu.com/course/53905)
+1. CTF 入门与分类：
+- 入门：Wiki，[链接](https://ctf-wiki.github.io/ctf-wiki/)；CTF 入门视频课程，[链接](https://www.ichunqiu.com/course/53905)。
+- 分类：国际 CTF 竞赛、国家 CTF 竞赛、企业 CTF、高校CTF。
 
 2. CTF 内容：
 - CTFs 内容：Web 网络攻防、Reverse Engineering 逆向工程、Pwn 二进制漏洞利用、Crypto 密码攻击、Mobile 移动安全、Misc 安全杂项。
 - 全国大学生信息安全竞赛内容：系统安全、软件逆向、漏洞挖掘和利用、密码学原理及应用、其他内容。
 
-3. CTF 赛事、竞赛比赛：
+3. CTF 学习指南：
+- AB 学习方向：
+A 方向：Pwn + Reverse + Crypto。/ B 方向：Web + Misc
+
+- 需要学的内容：
+![需要学的内容](图2-1.PNG)
+
+- A 方向推荐书籍：
+![A 方向推荐书籍](图2-2.PNG)
+
+- B 方向推荐书籍：
+![B 方向推荐书籍](图2-3.PNG)
+
+- 基础题目练习：
+[idf 实验室](http://ctf.idf.cn/)，[xctf 题库网站](oj.xctf.org.cn/)，[i 春秋 CTF 训练](https://www.ichunqiu.com/battalion)，[challs 非常入门的国外 ctf 题库](www.wechall.net/)，[非常入门的国外 cif 题库](canyouhackit.it)。
+
+- A 方向题目练习：
+[很炫酷游戏化](https://microcorruption.com)，[比较简洁的内容（ssh连入即可玩）](smashthestack.org)，
+[比较老牌的 Wargame（overthewire）](overthewire.org) [比较老牌的 Wargame（exploit-exercise）](exploit-exercise.com)，[PWN 类题目的游乐场](pwnable.kr)。
+
+- B 方向题目练习：
+[米安的 Web 漏洞靶场](ctf.moonsos.com/pentest/index.php)，[国外的 XSS 测试](prompt.ml/0)，[国外的 sql 注入的挑战网站](redtiger.labs.overthewire.org)。
+
+4. CTF 赛事、竞赛比赛：
 - CTFtime（All about CTF），[链接](https://ctftime.org/)
 - XCTF，[链接](https://www.xctf.org.cn/)
 - CTF Rank，[链接](https://ctfrank.org/)
 - 全国大学生信息安全竞赛，[链接](http://www.ciscn.cn/)
+- i 春秋赛事服务，[链接](https://www.ichunqiu.com/competition/all)
 
-4. CTF 工具：
+5. CTF 工具：
 - CTF 在线工具，[链接](http://ctf.ssleye.com/)
 - CTF 工具资源库，[链接](https://ctftools.com/down/)
 
-5. 训练演练、竞赛比赛：
+6. 训练演练、竞赛比赛：
 - Practice CTF List / Permanant CTF List，[链接](http://captf.com/practice-ctf/)
 - i 春秋 CTF 训练：[链接](https://www.ichunqiu.com/battalion)
 - 实验吧 CTF 习题：[链接](http://www.shiyanbar.com/ctf/index)
@@ -221,14 +245,15 @@ tags: 知识图谱与方法论
 - HackingLab 网络信息安全攻防学习平台，[链接](http://hackinglab.cn/)
 - CTFLEARN，[链接](https://ctflearn.com/)
 - Jarvis OJ，[链接](https://www.jarvisoj.com/)
+- pwnable，[链接](http://pwnable.kr/)
 - 渗透测试演练系统 DVWA，[链接](http://www.dvwa.co.uk/)
 - 渗透测试靶场、平台红日攻防汇总，[链接](http://sec-redclub.com/580.html)
 
-6. CTF Writeup（过程）：
+7. CTF Writeup（过程）：
 - CTFs Writeup 集锦，[链接](https://github.com/ctfs)
 - CTF writeups from P4 Team，[链接](https://github.com/p4-team/ctf)
 
-7. 补充：网络安全法解读，[视频链接](https://www.ichunqiu.com/course/57703)
+8. 补充：网络安全法解读，[视频链接](https://www.ichunqiu.com/course/57703)
 
 ## 6 一些学习网站、课程
 - 学习网站之 i 春秋，[链接](https://www.ichunqiu.com/)
@@ -238,6 +263,7 @@ tags: 知识图谱与方法论
 - 学习网站之慕课网，[链接](https://www.imooc.com/)
 - 学习网站之 PHP 中文网，[链接](http://www.php.cn/)
 - 一些课程之大学计算机专业课程体系，[链接](https://study.163.com/curricula/cs.htm)
+- 一些课程之 i 春秋职业体系课程，[链接](https://www.ichunqiu.com/zhiye)
 - 一些课程之 Web 安全微专业（前置课程）[链接](https://study.163.com/course/introduction.htm?courseId=1003521035#/courseDetail?tab=1)
 - 一些课程之 Web 安全微专业（基础）[链接](https://mooc.study.163.com/smartSpec/detail/1001227001.htm?share=1&shareId=9305777)
 - 一些课程之 Web 安全微专业（进阶）[链接](https://mooc.study.163.com/smartSpec/detail/1001386007.htm?share=1&shareId=9305777)

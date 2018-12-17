@@ -14,5 +14,11 @@ tags: 知识图谱与方法论
 # 三 后端
 ![后端](图3.PNG)
 
-# 四 补充：DevOps
+# 四 DevOps
 ![补充：DevOps](图4.PNG)
+
+# 五 具体技能模块知识框架（个人向）
+## 1 前端
+- Vue.js：[2019 年 Vue 学习路线图](https://infoq.cn/article/9XymmTqu*4QwahqikMka)
+
+## 2 后端
