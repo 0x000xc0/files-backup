@@ -216,7 +216,7 @@ A 方向：Pwn + Reverse + Crypto。/ B 方向：Web + Misc
 ![B 方向推荐书籍](图2-3.PNG)
 
 - 基础题目练习：
-[idf 实验室](http://ctf.idf.cn/)，[xctf 题库网站](oj.xctf.org.cn/)，[i 春秋 CTF 训练](https://www.ichunqiu.com/battalion)，[challs 非常入门的国外 ctf 题库](www.wechall.net/)，[非常入门的国外 cif 题库](canyouhackit.it)。
+[idf 实验室](http://ctf.idf.cn/)，[xctf 题库网站](oj.xctf.org.cn/)，[i 春秋 CTF 训练](https://www.ichunqiu.com/battalion)，[challs 非常入门的国外 ctf 题库](www.wechall.net/)，[非常入门的国外 ctf 题库](canyouhackit.it)。
 
 - A 方向题目练习：
 [很炫酷游戏化](https://microcorruption.com)，[比较简洁的内容（ssh连入即可玩）](smashthestack.org)，
