@@ -277,6 +277,7 @@ A 方向：Pwn + Reverse + Crypto。/ B 方向：Web + Misc
 - OWASP（开放式 Web 应用程序安全项目）：[链接](https://www.owasp.org/index.php/Main_Page)，[OWASP 中国，链接](http://www.owasp.org.cn/)
 - SECTOOLS：[链接](https://sectools.org/)
 - 乌云知识库：[链接](https://github.com/grt1st/wooyun_search)
+- Paper 安全技术精粹，[链接](https://paper.seebug.org/)
 - All conferences and series，[链接](https://media.ccc.de/)
 - kitploit 黑客工具介绍，[链接](https://www.kitploit.com/)
 - connect-trojan（Remote access trojan）：[链接](http://www.connect-trojan.net/)
