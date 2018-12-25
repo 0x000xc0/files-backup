@@ -27,7 +27,7 @@ CISSP
 # 三 CISSP 内容 what
 > 参考：[链接](https://www.freebuf.com/articles/security-management/192250.html)
 
-1. CBK（Common Body of Knowledge/知识域）：
+CBK（Common Body of Knowledge/知识域）：
 ![CBK](图0.PNG)
 
 - 安全与风险管理 (安全、风险、合规、法律、法规、业务连续性)
@@ -39,10 +39,28 @@ CISSP
 - 安全运营 (基本概念、调查、事件管理、灾难恢复)
 - 软件开发安全 (理解、应用、和实施软件安全) 
 
-2. 学习资料：
-- [参考链接](http://shenghuo.lshou.com/c12712/t5dd661cb9cdb.html)
+# 四 学习资料
+## 1 资料参考
+- 推荐资料一：
+[参考链接](http://shenghuo.lshou.com/c12712/t5dd661cb9cdb.html)
 推荐：CISSP All-In-One Exam Guide，CISSP CBK。
 ![学习资料](图1.PNG)
 
-- [转战信息安全，我的CISSP备考分享](https://zhuanlan.zhihu.com/p/33198492)
+- 推荐资料二：
+[转战信息安全，我的CISSP备考分享](https://zhuanlan.zhihu.com/p/33198492)
 推荐：Cybrary 的 CISSP 教学视频，Google/youtube 相关视频，官方的 CISSP APP（study+exam），CISSP 11小时，官方教材。
+
+- 补充学习经验资料等：
+[CISSP一次通过指南](https://www.freebuf.com/column/161278.html)，
+[经验分享 | 通往CISSP成功之路](https://www.freebuf.com/articles/others-articles/159094.html)。
+
+## 2 资料汇总
+- Certification Exam Outline
+- Cybrary 的 CISSP 教学视频
+- Google/youtube 相关视频
+- 官方的 CISSP APP（study+exam）
+- CISSP 11 小时
+- OSG
+- CBK
+- IOA
+- 官方习题英文版
