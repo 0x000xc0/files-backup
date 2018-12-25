@@ -25,7 +25,11 @@ CISSP
 - 没有工作经验也可以参加考试，考试通过后成为 Associate，等到积累的工作年限满足后再申请认证。
 
 # 三 CISSP 内容 what
+> 参考：[链接](https://www.freebuf.com/articles/security-management/192250.html)
+
 1. CBK（Common Body of Knowledge/知识域）：
+![CBK](图0.PNG)
+
 - 安全与风险管理 (安全、风险、合规、法律、法规、业务连续性)
 - 资产安全 (保护资产的安全性)
 - 安全工程 (安全工程与管理)
