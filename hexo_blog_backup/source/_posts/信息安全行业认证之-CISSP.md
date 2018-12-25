@@ -64,3 +64,4 @@ CBK（Common Body of Knowledge/知识域）：
 - CBK
 - IOA
 - 官方习题英文版
+- 补充资料，链接：https://pan.baidu.com/s/1LxqMbzUgsSJkz76gfvunCA ，提取码：7jay 
