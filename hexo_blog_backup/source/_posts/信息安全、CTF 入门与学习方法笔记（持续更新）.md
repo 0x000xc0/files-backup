@@ -271,10 +271,21 @@ A 方向：Pwn + Reverse + Crypto。/ B 方向：Web + Misc
 ## 7 常用方法技能
 - CVE 申请报告的编写样例：[Report(CVE-2018-11396)](https://bugzilla.gnome.org/show_bug.cgi?id=795740)
 
+## 8 补充：Web 安全学习过程参考
+> 参考文章：[Web 安全研究人员是如何炼成的？](https://xz.aliyun.com/t/2358)
+
+- 相关课程体系、相关书籍
+- CTF
+- 练习 1：OWASP Broken Web Applications Project，[链接](https://www.owasp.org/index.php/OWASP_Broken_Web_Applications_Project)
+- 练习 2：hackxor，[链接](https://hackxor.net/)
+- HackerOne、BugCrowd 难度和回报相对较低的挑战来练手。
+- 资料有：Hacker101 系列、OWASP Testing Guide、《Web Application Hackers Handbook》、《the tangled web》
+
 # 四 安全资料与项目
 - Awesome-Hacking：[链接](https://github.com/Hack-with-Github/Awesome-Hacking)
 - 安全开源项目汇总：[链接](https://www.anquanquan.info/anquankaiyuan.html)
 - OWASP（开放式 Web 应用程序安全项目）：[链接](https://www.owasp.org/index.php/Main_Page)，[OWASP 中国，链接](http://www.owasp.org.cn/)
+- OWASP Testing Guide，[链接](https://www.owasp.org/index.php/OWASP_Testing_Guide_v4_Table_of_Contents)
 - SECTOOLS：[链接](https://sectools.org/)
 - 乌云知识库：[链接](https://github.com/grt1st/wooyun_search)
 - Paper 安全技术精粹，[链接](https://paper.seebug.org/)
@@ -345,6 +356,10 @@ A 方向：Pwn + Reverse + Crypto。/ B 方向：Web + Misc
 - Public Database Directory - Public DB Host，[链接](https://www.databases.today/index.php)
 - 站长工具，[链接](http://tool.chinaz.com/)
 - 查企业，[天眼查](https://www.tianyancha.com/)、[启信宝](https://www.qixin.com/)
+- 注册过哪些网站，[链接](https://www.reg007.com/)
+- Google Hacking Database，[链接](https://www.exploit-db.com/google-hacking-database)
+- 全球 DNS 搜索引擎，[链接](https://dnsdb.io/zh-cn/)
+- 在线 XSS 扫描，[链接](http://xss-scanner.com/)
 
 # 六 信息安全咨询与信息、期刊、论坛站点
 信息安全导航站：[安全圈之安全站点](https://www.anquanquan.info/#securesite)
@@ -373,6 +388,7 @@ A 方向：Pwn + Reverse + Crypto。/ B 方向：Web + Misc
 - cracking 论坛，[链接](https://cracking.org/)
 - pentester，[链接](https://pentester.land/)
 - 安全牛，[链接](https://www.aqniu.com/)
+- 雨苁，[链接](https://www.ddosi.com/)
 
 ## 4 推荐关注的组织与个人
 1. YouTube 关注：
@@ -424,6 +440,7 @@ A 方向：Pwn + Reverse + Crypto。/ B 方向：Web + Misc
 - sobug，[链接](https://sobug.com/)
 - CNVD，[链接](http://zc.cnvd.org.cn/)
 - bugcrowd，[链接](https://www.bugcrowd.com/)
+- hackerone，[链接](https://www.hackerone.com/)
 
 # 九 一些安全企业、行业全景图
 > 参考：[安全牛，网络安全行业全景图（2018年7月）发布](https://www.aqniu.com/industry/36011.html)

@@ -33,8 +33,11 @@ tags: 知识图谱与方法论
 - 《Web 安全之机器学习入门》
 - 《互联网企业安全高级指南》
 
-3. 资料：
-- [博文：给表弟的Web安全入门建议](https://sosly.me/index.php/2017/07/17/studywebsec/)
+3. 其它资料：
+- Hacker101 系列
+- OWASP Testing Guide
+- 《Web Application Hackers Handbook》
+- 《the tangled web》
 
 4. CTF 相关基础题目练习：
 - [idf 实验室](http://ctf.idf.cn/)
@@ -51,6 +54,18 @@ tags: 知识图谱与方法论
 - 关于 Web 漏洞各种类型的原理、利用方法和防御方面的技能。
 - Linux 操作系统、编程语言等等基础类技能。
 - 渗透测试工具的使用。
+
+6. 补充：Web 安全学习过程参考小结
+> 参考文章：
+[Web 安全研究人员是如何炼成的？](https://xz.aliyun.com/t/2358)
+[给表弟的Web安全入门建议](https://sosly.me/index.php/2017/07/17/studywebsec/)
+
+- 相关课程体系、相关书籍
+- CTF
+- 练习 1：OWASP Broken Web Applications Project，[链接](https://www.owasp.org/index.php/OWASP_Broken_Web_Applications_Project)
+- 练习 2：hackxor，[链接](https://hackxor.net/)
+- HackerOne、BugCrowd 难度和回报相对较低的挑战来练手。
+- 资料有：Hacker101 系列、OWASP Testing Guide、《Web Application Hackers Handbook》、《the tangled web》
 
 # 四 Web 开发、Web 安全
 ![Web 开发](图1.PNG)
