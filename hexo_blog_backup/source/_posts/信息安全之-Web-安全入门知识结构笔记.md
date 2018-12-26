@@ -57,8 +57,8 @@ tags: 知识图谱与方法论
 
 6. 补充：Web 安全学习过程参考小结
 > 参考文章：
-[Web 安全研究人员是如何炼成的？](https://xz.aliyun.com/t/2358)
-[给表弟的Web安全入门建议](https://sosly.me/index.php/2017/07/17/studywebsec/)
+1、 [Web 安全研究人员是如何炼成的？](https://xz.aliyun.com/t/2358)
+2、 [给表弟的Web安全入门建议](https://sosly.me/index.php/2017/07/17/studywebsec/)
 
 - 相关课程体系、相关书籍
 - CTF
