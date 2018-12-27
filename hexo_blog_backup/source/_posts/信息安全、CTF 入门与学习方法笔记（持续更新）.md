@@ -246,7 +246,7 @@ A 方向：Pwn + Reverse + Crypto。/ B 方向：Web + Misc
 - CTFLEARN，[链接](https://ctflearn.com/)
 - Jarvis OJ，[链接](https://www.jarvisoj.com/)
 - pwnable，[链接](http://pwnable.kr/)
-- 渗透测试演练系统 DVWA，[链接](http://www.dvwa.co.uk/)
+- 渗透测试演练系统 OWASP_BWA、DVWA、Mutillidae、Web for pentester
 - 渗透测试靶场、平台红日攻防汇总，[链接](http://sec-redclub.com/580.html)
 
 7. CTF Writeup（过程）：
