@@ -25,3 +25,13 @@ tags: 知识图谱与方法论
 1、 [我只想做一款安静的文献管理工具——Zotero](https://sspai.com/post/32650)
 2、 [Zotero（1）：文献管理软件Zotero基础及进阶示范 ](https://www.yangzhiping.com/tech/zotero1.html)
 3、 [谈谈Zotero](https://www.jianshu.com/p/6adcf5f528fe)
+
+1. 注册、安装 Zotero 和坚果云。
+
+2. 在 zotero 中登陆坚果云（WebDAV，坚果云的设置见参考 1）。可能会遇到无法验证服务器的问题，解决方法一，直接填写完信息后点击 OK，重启软件后验证；在 iPad 上使用 papership 时，解决方法二，在坚果云文件夹 zotero（可能需要新建此文件夹，因为无法验证的话不会自动创建这个文件夹）中新建文件 lastsync.txt，这是因为兼容性问题。
+![验证服务器](图1.PNG)
+
+3. 一些插件：
+- 插件大全，[链接](https://www.zotero.org/support/plugins)。
+- 文献可视化 papermachines-0.4.4，[下载地址](https://github.com/papermachines/papermachines/releases)。
+- ZotFile，[下载地址](http://zotfile.com/)。
