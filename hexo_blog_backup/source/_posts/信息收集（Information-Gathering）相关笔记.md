@@ -1,7 +1,7 @@
 ---
 title: 信息收集（Information Gathering）相关笔记
 date: 2018-12-26 19:02:53
-tags: 信息安全
+tags: 渗透测试
 ---
 # 一 补充：Kali Linux 工具分类简介
 - Information Gathering（信息收集）
