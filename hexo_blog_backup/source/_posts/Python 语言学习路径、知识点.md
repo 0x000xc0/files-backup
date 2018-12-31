@@ -1,5 +1,5 @@
 ---
-title: Python 语言学习路径、Python 全栈开发知识结构
+title: Python 语言学习路径、知识点
 date: 2018-11-14 18:37:00
 tags: 知识图谱与方法论
 ---
@@ -13,14 +13,7 @@ tags: 知识图谱与方法论
 - 《Think Python》，[豆瓣读书链接](https://book.douban.com/subject/26634683/)。
 - Python 开发之路，[博客链接](https://www.cnblogs.com/linhaifeng/p/7278389.html)。
 - Python 教程，[廖雪峰博客链接](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)。
+- Python 语言学习，[参考博文](https://www.cnblogs.com/linhaifeng/p/7278389.html)
 
-# 二 Python 全栈开发知识结构
-> 从零到一，技能清单。
-
-1. 计算机基础知识（底层原理、网络）。
-
-2. Linux 相关知识。
-
-3. Python 语言学习。[参考博文](https://www.cnblogs.com/linhaifeng/p/7278389.html)
-
-4. Git 使用或 SVN 版本控制使用。
+# 二 Python 知识点
+![Python 知识点](图1.PNG)
