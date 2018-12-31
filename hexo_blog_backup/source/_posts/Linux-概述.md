@@ -1,7 +1,7 @@
 ---
 title: Linux 概述
 date: 2018-09-21 01:23:56
-tags: Linux
+tags: Unix/Linux
 ---
 > 参考资料：http://www.runoob.com/linux/linux-system-contents.html
 

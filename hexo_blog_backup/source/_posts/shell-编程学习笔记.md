@@ -1,7 +1,7 @@
 ---
 title: shell 编程学习笔记
 date: 2018-10-11 01:23:34
-tags: Linux
+tags: Unix/Linux
 ---
 > [参考教程 1](http://www.runoob.com/linux/linux-shell-variable.html)
 [参考博文 1](https://www.jb51.net/article/123081.htm)

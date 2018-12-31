@@ -1,7 +1,7 @@
 ---
 title: Linux 常用命令大全
 date: 2018-08-02 20:17:35
-tags: Linux
+tags: Unix/Linux
 ---
 > Author：Marlous（整理、编写）
 
