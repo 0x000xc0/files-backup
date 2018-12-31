@@ -87,7 +87,7 @@ tags: 信息安全
 - [站长之家在线工具获取旁站](http://s.tool.chinaz.com/same)
 - k8 旁站查询
 
-5. C 端查询:
+5. C 段查询:
 - 北极熊扫描器，[下载地址](http://www.xitongzhijia.net/soft/71774.html)
 - Nmap
 
