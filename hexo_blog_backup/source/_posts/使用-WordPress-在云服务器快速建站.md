@@ -4,6 +4,7 @@ date: 2019-01-01 15:06:27
 tags: 记录小结
 ---
 > 阿里云可以直接使用 WordPress，本博文教程使用虚拟机（Ubuntu）当作 ECS 云服务器，从零开始建站。
+注意，WordPress 官网提供了博客服务，可以直接注册好立即使用，无需自己部署。
 
 > 参考：
 1、 [WordPress 官方中文文档](https://codex.wordpress.org/zh-cn:Main_Page)
@@ -83,6 +84,7 @@ EXIT
 1. 将 wp-config-sample.php 重命名为 wp-config.php
 
 2. 在  `// ** MySQL settings - You can get this info from your web host ** //` 下输入信息。
+[怎样填写：参考链接](https://codex.wordpress.org/zh-cn:%E7%BC%96%E8%BE%91wp-config.php#Possible_DB_HOST_values)
 ```
 DB_NAME 
     在第二步中为WordPress创建的数据库名称
@@ -109,10 +111,8 @@ DB_COLLATE
 - 放在根目录的，http://example.com/wp-admin/install.php （本地用 127.0.0.1/wp-admin/install.php）
 - 放在子目录的，http://example.com/blog/wp-admin/install.php
 
-2. 填写信息：
-注：
-可能出现 Error establishing a database connection 错误；
-查看 /var/log/mysql，发现 Access denied for user 'root'@'localhost' (using password: NO)
-可能是因为安装数据库时没设置密码所致，通过修改密码解决，
-
+注：填写信息（WordPress 无法查找到 wp-config.php 文件时）
 ![填写信息](图1.PNG)
+
+2. 脚本安装过程：
+用户在输入界面中输入博客名称和自己的电子邮箱地址。输入框下还有一个复选框，询问用户是否希望博客出现在 Google、 Technorati 等搜索引擎中。如果希望博客对所有人（包括搜索引擎）可见，请选中复选框；如果想阻止搜索引擎访问但又不希望限制到正常访问者，不要选中复选框。
