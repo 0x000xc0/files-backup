@@ -36,5 +36,20 @@ tags: Kali
 
 # 三 各工具功能概述
 ## 1 Information Gathering（信息收集）
+1. dmitry：
+- 参考文档：
+[DMitry Package Description](https://tools.kali.org/information-gathering/dmitry)；[DMitry 介绍](https://github.com/Marlous/kalitools/blob/master/Information%20Gathering/DMitry.md)。
+- 简介：
+DMitry(Deepmagic Information Gathering Tools 深度信息收集工具)是一个linux下用C语言写的工具。它能够尽可能的获取指定主机目标的信息。基础功能是获取目标的子域名，Email地址，运行时间相关信息，tcp端口，whois信息等等。
+- 评价等：
+whois 查询/子域名收集/端口扫描；whois并不简单明了，子域名和邮箱依赖google，端口扫描速度一般。
+
+2. dnmap：
+- 参考文档：
+[dnmap Package Description](https://tools.kali.org/information-gathering/dnmap)；[dnmap 介绍](https://github.com/Marlous/kalitools/blob/master/Information%20Gathering/dnmap.md)。
+- 简介：
+dnmap（distributed nmap）是一款基于nmap的分布式扫描工具，它能够用一个集群来对另外一个大型集群网络进行扫描。 dnmap采用的是客户端/服务器体系结构，服务端主要是用来分发任务和汇总扫描状态，客户端主要用来执行扫描任务和记录自身的扫描状态。 该工具主要用于你想一个大型集群网络进行扫描，你自己拥有一个集群（肉鸡）的资源或者你的小伙伴想帮你的情况。
+- 评价等：
+用于组建分布式 nmap，dnmap_server 为服务端；dnmap_client为客户端，用起来并不是那么方便，不是实在不行不是很必要。
 
 ## 2 Vulnerability Analysis（漏洞分析）
