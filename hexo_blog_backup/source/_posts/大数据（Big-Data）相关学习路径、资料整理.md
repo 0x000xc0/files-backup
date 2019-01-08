@@ -27,10 +27,11 @@ tags: 知识图谱与方法论
 ![极速了解大数据](图1.PNG)
 
 ## 1 入门指南
-- [哈里斯堡社区大学公开课：统计学入门](http://open.163.com/special/opencourse/statistics.html)。
 - [数据库 SQL 教程](https://www.w3cschool.cn/sql/)。
 - Python/R 语言基础。
 - Linux 基础。
+- Excel/Tableau 数据分析软件。
+- [哈里斯堡社区大学公开课：统计学入门](http://open.163.com/special/opencourse/statistics.html)。
 - [数据挖掘 18 大算法实现以及其他相关经典 DM 算法](https://github.com/linyiqun/DataMiningAlgorithm)。
 
 ## 2 学习路线
