@@ -17,3 +17,6 @@ tags: 知识图谱与方法论
 
 # 二 Python 知识点
 ![Python 知识点](图1.PNG)
+
+# 三 Python 练习项目
+- [Python学习路径及练手项目合集](https://zhuanlan.zhihu.com/p/23561159)
