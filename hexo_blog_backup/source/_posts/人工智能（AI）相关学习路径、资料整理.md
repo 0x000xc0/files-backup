@@ -11,6 +11,8 @@ tags: 知识图谱与方法论
 5、 [奔走相告！亚马逊内部机器学习课程现向大众免费开放](https://zhuanlan.zhihu.com/p/51011016)
 6、 [从基础概念到数学公式，这是一份520页的机器学习笔记（图文并茂）](https://zhuanlan.zhihu.com/p/36287950)
 7、 [学习机器学习过程中都走过哪些弯路，怎样避免走弯路？](https://www.zhihu.com/question/265000993/answer/288147789)
+8、 [普通程序员如何正确学习人工智能方向的知识？](https://www.zhihu.com/question/51039416/answer/126821822)
+9、 [如何自学人工智能？](https://www.zhihu.com/question/21277368/answer/550671387)
 
 # 一 概述
 - 不要把深度学习作为入门第一课，建议从经典机器学习开始入手。
@@ -21,14 +23,17 @@ tags: 知识图谱与方法论
 - 不要试图掌握所有的相关数学知识再开始学习。
 
 # 二 补充资料
-- [机器学习技能图谱](https://github.com/TeamStuQ/skill-map/blob/master/data/designbyStuQ/png-MachineLearning-by-StuQ.png)
-- [哥伦比亚大学研究生详细吴恩达《机器学习》笔记](https://wei2624.github.io/machine%20learning/Machine-Learning-Notes/)。
+- [PracticalAI 从零开始学习人工智能（重实践）](https://github.com/GokuMohandas/practicalAI/)。
 - [从基础概念到数学公式，机器学习笔记](https://pan.baidu.com/s/1tNXYQNadAsDGfPvuuj7_Tw#list/path=%2F)。
+- [深度学习500问](https://github.com/scutan90/DeepLearning-500-questions)。
+- [机器学习技能图谱](https://github.com/TeamStuQ/skill-map/blob/master/data/designbyStuQ/png-MachineLearning-by-StuQ.png)。
+- [哥伦比亚大学研究生详细吴恩达《机器学习》笔记](https://wei2624.github.io/machine%20learning/Machine-Learning-Notes/)。
 - 读懂机器学习需要哪些数学知识，[备用连接 1：密码: yzkx](https://pan.baidu.com/s/1rEoidASC51_gDMcLpi1wxQ)，[备用连接 2：密码: i7mn](https://pan.baidu.com/s/1PCkS--EpbOaQ7LD8HGlBfQ)。
 - [AWS Machine Learning 学习课程](https://aws.amazon.com/cn/training/learning-paths/machine-learning/)。
 - [极客时间：人工智能基础课](https://time.geekbang.org/column/intro/62)。
+- [Kaggle 挑战赛/练习](https://www.kaggle.com/)。
 
-# 三 学习路径
+# 三 详细学习路径
 ## 0 极速了解人工智能
 > 参考：
 1、 [极客时间：人工智能基础课](https://time.geekbang.org/column/intro/62)
