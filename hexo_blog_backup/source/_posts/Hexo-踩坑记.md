@@ -30,3 +30,6 @@ Hexo的配置文件_config.yml，设置为 `post_asset_folder: true` ；
 
 # 五 遗留问题（重新部署后已解决）
 问题：部署后只有 about 导航页用 PC 和手机蜂窝数据正常打开，手机连 Wi-Fi 就打不开，是 CDN 问题么，之后几小时又带不开了，唯独此页间歇性抽风，但换成蜂窝数据就能打开…
+
+# 六 补充：博客 CI/CD
+- [Hexo+Netlify快速搭建个人博客](https://blog.csdn.net/salsamaniac/article/details/81026739)
