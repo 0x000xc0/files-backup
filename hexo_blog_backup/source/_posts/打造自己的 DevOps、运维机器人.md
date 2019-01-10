@@ -1,5 +1,5 @@
 ---
-title: 打造自己的 DevOps（CI/CD 等）
+title: 打造自己的 DevOps、运维机器人
 date: 2019-01-07 16:03:26
 tags: 软件工程
 ---
