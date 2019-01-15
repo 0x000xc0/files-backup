@@ -24,6 +24,7 @@ tags: 知识图谱与方法论
 
 # 二 补充资料
 - [PracticalAI 从零开始学习人工智能（重实践）](https://github.com/GokuMohandas/practicalAI/)。
+- [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/index.html)。
 - [从基础概念到数学公式，机器学习笔记](https://pan.baidu.com/s/1tNXYQNadAsDGfPvuuj7_Tw#list/path=%2F)。
 - [深度学习500问](https://github.com/scutan90/DeepLearning-500-questions)。
 - [机器学习技能图谱](https://github.com/TeamStuQ/skill-map/blob/master/data/designbyStuQ/png-MachineLearning-by-StuQ.png)。
