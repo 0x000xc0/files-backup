@@ -16,6 +16,7 @@ tags: 知识图谱与方法论
 - 随着近些年大数据技术的发展，以 Hadoop、Spark 为代表的大数据开源项目早已迭代成熟，构建起生态化系统。与此对应，不论是开发者还是企业，关注点也已经从技术的演进转向如何更好地应用大数据，去支撑业务和云计算、人工智能的深度融合。
 
 # 二 补充资料
+- [实验楼-路径：大数据工程师](https://www.shiyanlou.com/paths/2)
 - [大数据工程师必备技能图谱](https://github.com/TeamStuQ/skill-map/blob/master/data/designbyStuQ/png-BigData-by-StuQ.png)
 - [Hadoop 家族技能图谱](https://github.com/TeamStuQ/skill-map/blob/master/data/designbyStuQ/png-Hadoop-by-StuQ.png)
 

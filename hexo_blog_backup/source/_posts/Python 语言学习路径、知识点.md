@@ -13,10 +13,23 @@ tags: 知识图谱与方法论
 - 《Think Python》，[豆瓣读书链接](https://book.douban.com/subject/26634683/)。
 - Python 开发之路，[博客链接](https://www.cnblogs.com/linhaifeng/p/7278389.html)。
 - Python 教程，[廖雪峰博客链接](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)。
-- Python 语言学习，[参考博文](https://www.cnblogs.com/linhaifeng/p/7278389.html)
 
-# 二 Python 知识点
-![Python 知识点](图1.PNG)
+# 二 技术栈及课程
+1. Python 全栈开发：
+- [实验楼-路径：Python 研发工程师](https://www.shiyanlou.com/paths/1)
+- [老男孩教育 Python 全栈工程师基础](https://www.bilibili.com/video/av21663728)
 
-# 三 Python 练习项目
+2. 若干系列课程：
+- [补充：Python 语言程序设计](http://www.icourse163.org/course/BIT-268001?tid=1002235009)
+- [Python 网络爬虫与信息提取](http://www.icourse163.org/course/BIT-1001870001?tid=1002236011)
+- [Python 数据分析与展示](http://www.icourse163.org/course/BIT-1001870001?tid=1002236011)
+- [Python 科学计算三维可视化分享](http://www.icourse163.org/course/BIT-1001871001?tid=1002481001)
+- [Python 云端系统开发入门](http://www.icourse163.org/course/BIT-1001871002#/info)
+- [Python 游戏开发入门](http://www.icourse163.org/course/BIT-1001873001)
+- [Python 桌面系统开发 PYQT5 全套教程](https://www.bilibili.com/video/av36210854)
+
+# 三 练习项目
 - [Python学习路径及练手项目合集](https://zhuanlan.zhihu.com/p/23561159)
+
+# 四 Python 知识点
+![Python 知识点](图1.PNG)

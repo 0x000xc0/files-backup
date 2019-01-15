@@ -30,6 +30,7 @@ tags: 知识图谱与方法论
 - [机器学习技能图谱](https://github.com/TeamStuQ/skill-map/blob/master/data/designbyStuQ/png-MachineLearning-by-StuQ.png)。
 - [哥伦比亚大学研究生详细吴恩达《机器学习》笔记](https://wei2624.github.io/machine%20learning/Machine-Learning-Notes/)。
 - 读懂机器学习需要哪些数学知识，[备用连接 1：密码: yzkx](https://pan.baidu.com/s/1rEoidASC51_gDMcLpi1wxQ)，[备用连接 2：密码: i7mn](https://pan.baidu.com/s/1PCkS--EpbOaQ7LD8HGlBfQ)。
+- [实验楼-路径：机器学习工程师](https://www.shiyanlou.com/paths/20)
 - [AWS Machine Learning 学习课程](https://aws.amazon.com/cn/training/learning-paths/machine-learning/)。
 - [极客时间：人工智能基础课](https://time.geekbang.org/column/intro/62)。
 - [Kaggle 挑战赛/练习](https://www.kaggle.com/)。
