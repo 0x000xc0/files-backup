@@ -17,6 +17,9 @@ tags: 知识图谱与方法论
 ![Web安全微专业知识图谱_提纲_网易云课堂](图0-3.PNG)
 
 # 三 课程、书籍与资料等
+0. 网络空间安全工程技术人才培养体系指南：
+- 参考文档：[第三章 网安人才知识技能体系](http://plb1sn5p2.bkt.clouddn.com/%E7%BD%91%E7%BB%9C%E7%A9%BA%E9%97%B4%E5%AE%89%E5%85%A8%E5%B7%A5%E7%A8%8B%E6%8A%80%E6%9C%AF%E4%BA%BA%E6%89%8D%E5%9F%B9%E5%85%BB%E4%BD%93%E7%B3%BB%E6%8C%87%E5%8D%971.0.pdf?nsukey=LtDDL%2FiAbvzJlJ%2BIKcJF7%2Bix%2Bc%2BInR2D2FRMfg%2BDhtrB9q3M6133fn3wubACRwMs0T%2F2vftzK8Zy9BuKKo2nvdAwhdm0fvwAUFCddXzsEeJcZHQCCkmWj0GtIu1QHIwHfuwBe%2B%2BF%2BcnKRDnXTkA8q8gSZbIhHnd8l%2FLTvpgFCn%2F9iDZr3vK6yzjrJ%2BSoL4AxQWd3anCe2Sbnqw%2FTea%2B1xA%3D%3D)
+
 1. 课程：
 - Web 安全微专业（前置课程）[链接](https://study.163.com/course/introduction.htm?courseId=1003521035#/courseDetail?tab=1)
 - Web 安全微专业（基础）[链接](https://mooc.study.163.com/smartSpec/detail/1001227001.htm?share=1&shareId=9305777)
