@@ -21,6 +21,8 @@ tags: 知识图谱与方法论
 
 2. 若干系列课程：
 - [补充：Python 语言程序设计](http://www.icourse163.org/course/BIT-268001?tid=1002235009)
+- [补充：Python 相关微专业、系列课程](https://study.163.com/courses-search?keyword=python)
+- [用 Python 自动办公，做职场高手](https://study.163.com/course/introduction/1006277004.htm)
 - [Python 网络爬虫与信息提取](http://www.icourse163.org/course/BIT-1001870001?tid=1002236011)
 - [Python 数据分析与展示](http://www.icourse163.org/course/BIT-1001870001?tid=1002236011)
 - [Python 科学计算三维可视化分享](http://www.icourse163.org/course/BIT-1001871001?tid=1002481001)
