@@ -33,8 +33,8 @@ tags: 知识图谱与方法论
 - Vue.js：[2019 年 Vue 学习路线图](https://infoq.cn/article/9XymmTqu*4QwahqikMka)
 
 ## 2 后端
-- Django：[django 菜鸟教程](http://www.runoob.com/django/django-tutorial.html)
-- PHP
+- Flask/Django：[django 菜鸟教程](http://www.runoob.com/django/django-tutorial.html)
+- PHP/Python/Java
 - MySQL
 - Linux
 
