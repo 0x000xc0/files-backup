@@ -23,22 +23,23 @@ tags: 知识图谱与方法论
 - [补充：前端开发协助工具 Iceworks 文档](https://alibaba.github.io/ice/docs/ice-design)
 
 # 六 具体技能模块知识框架（个人向）
-## 0 全局框架
+## 1 知识框架
 ![全局框架](图5.PNG)
+![知识框架](图6.PNG)
 
-## 1 前端
+## 2 前端
 - HTML/CSS/JavaScript
 - JQuery/Bootstrap
 - webpack
 - Vue.js：[2019 年 Vue 学习路线图](https://infoq.cn/article/9XymmTqu*4QwahqikMka)
 
-## 2 后端
+## 3 后端
 - Flask/Django：[django 菜鸟教程](http://www.runoob.com/django/django-tutorial.html)
 - PHP/Python/Java
 - MySQL
 - Linux
 
-## 3 补充：后端架构
+## 4 补充：后端架构
 - .NET（Windows Server + IIS + SQL Server + ASP）
 - LAMP（Linux + Apache + MySQL + Perl/PHP/Python）或 LNMP（Nginx）
 - J2EE（Unix/Windows + Tomcat + Oracle +JSP）
