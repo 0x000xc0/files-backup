@@ -8,6 +8,8 @@ tags: 知识图谱与方法论
 2、 [怎样进行大数据的入门级学习？](https://www.zhihu.com/question/24761255/answer/59803163)
 3、 [如何快速成为数据分析师？](https://www.zhihu.com/question/29265587/answer/44010658)
 4、 [极客时间：从0开始学大数据](https://time.geekbang.org/column/intro/133?utm_term=zeusNMTT8&utm_source=website&utm_medium=oschina&utm_campaign=133-onsell&utm_content=oschina5)
+5、 [BI转数据挖掘，我的脱产学习路](https://zhuanlan.zhihu.com/p/32454374)
+6、 [知乎：数据挖掘](https://www.zhihu.com/search?type=content&q=%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98)
 
 # 一 概述
 - 大致方向：
@@ -23,17 +25,29 @@ tags: 知识图谱与方法论
 # 三 学习路径
 ## 0 极速了解大数据
 > 参考：
-[极客时间：从0开始学大数据](https://time.geekbang.org/column/intro/133?utm_term=zeusNMTT8&utm_source=website&utm_medium=oschina&utm_campaign=133-onsell&utm_content=oschina5)
+1、 [极客时间：从0开始学大数据](https://time.geekbang.org/column/intro/133?utm_term=zeusNMTT8&utm_source=website&utm_medium=oschina&utm_campaign=133-onsell&utm_content=oschina5)
+2、 [BI转数据挖掘，我的脱产学习路](https://zhuanlan.zhihu.com/p/32454374)
 
-![极速了解大数据](图1.PNG)
+- ![BI转数据挖掘，我的脱产学习路](图0.PNG)
+
+- ![极速了解大数据](图1.PNG)
 
 ## 1 入门指南
+1. 知识图谱：
 - [数据库 SQL 教程](https://www.w3cschool.cn/sql/)。
 - Python/R 语言基础。
 - Linux 基础。
 - Excel/Tableau 数据分析软件。
 - [哈里斯堡社区大学公开课：统计学入门](http://open.163.com/special/opencourse/statistics.html)。
 - [数据挖掘 18 大算法实现以及其他相关经典 DM 算法](https://github.com/linyiqun/DataMiningAlgorithm)。
+
+2. 工具：
+- PyCharm
+- anaconda
+- Jupyter Notebook/Jupyter Lab
+
+3. 参赛平台：
+kaggle、阿里巴巴天池、kesci、datacastle、biendata、datafountain 等。
 
 ## 2 学习路线
 > 参考：
